@@ -11,7 +11,8 @@ body{
     background-color:#231EFF;
 }
 .pagina-inicial{
-    background-color:powderblue;
+
+    background-color:lavender;
 }
 
 .apresentacao{
@@ -134,7 +135,7 @@ align-items: center;
     height: 433px;
 }
 .barra-opcoes-inicio{
-    background-color:#1E90FF;
+    background-color:steelblue;
     margin-bottom: 20px;
 }
 
@@ -148,7 +149,7 @@ align-items: center;
     color:#231EFF;
     width: 200px;
     height: 60px;
-    margin: 0px 20px;
+    margin: 0px 10px;
  
     font-family: 'Krona One', sans-serif;
 }
@@ -162,19 +163,61 @@ align-items: center;
     align-items: center;
     padding: 0% 5%;
     display: flex;
+    align-items: flex-start;
+    gap:50px;
+    min-height: 80vh;
    
 
 }
 
-.apresentacao-principal{
-    width: 900px;
-    height: 520px;
+
+.apresentacoes{
+    width: 720px;
+    height: 500px;
     background-color: white;
-    border-radius: 21px;
+   
 }
 
 .titulo-apresentacao{
-    color: #1E90FF;
+    background-color: steelblue;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 27px;
+
+}
+
+.texto-apresentacao{
+    color: #F6F6F6;
+    font-family: 'Krona One', sans-serif;
+
+    font-size: 20px;
+}
+
+.agenda{
+    width: 500px;
+    height: 333px;
+    background-color: white;
+}
+
+.titulo-agenda{
+    background-color: steelblue;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 27px;
+
+}
+
+.texto-agenda{
+    color: #F6F6F6;
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+}
+
+.final{
+    background-color: steelblue;
+    height: 68px;
 }
 
 
