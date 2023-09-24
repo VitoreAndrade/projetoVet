@@ -1,223 +1,223 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-}
+    *{
+        margin: 0;
+        padding: 0;
+    }
 
-body{
-    min-height: 80vh;
-    background-color:#231EFF;
-}
-.pagina-inicial{
+    body{
+        min-height: 80vh;
+        background-color:#231EFF;
+    }
+    .pagina-inicial{
 
-    background-color:lavender;
-}
+        background-color:lavender;
+    }
 
-.apresentacao{
-    min-height: 80vh;
-    align-items: center;
-    padding: 10% 10%;
-    display: flex;
-    justify-content: center;
-   
-}
-
-
-.apresentacao-inicio{
-
-
-    text-align: center;
-    width: 900px;
-    height: 520px;
-    background-color: white;
-    border-radius: 21px;
-}
-
-.apresentacao-titulo{
-    display: flex;
-    align-items: center;
-    padding: 1% 2%
-
-}
-.texto-apresentacao-login{  
-    font-family: 'Krona One', sans-serif;
-    display: flex;
-    align-items: center;
-    color: #231EFF;
-    padding: 0 2%;
-}
-
-.texto-barra-login{  
-    font-family: 'Krona One', sans-serif;
-    font-size: 26px;
-    display: flex;
-    align-items: center;
-    color: #F6F6F6;
-    padding: 0 2%;
-}
-.apresentacao-login{
-    display: flex;
-    align-items: center;
-    padding: 0 38px;
-    gap: 90px;
-
-
-}
-
-.imagem-login{
-    width: 60px;
-    height: 70px;
+    .apresentacao{
+        min-height: 80vh;
+        align-items: center;
+        padding: 10% 10%;
+        display: flex;
+        justify-content: center;
     
-}
+    }
 
 
-.login-senha{
-    border-radius: 20px;
-    background-color: white;
-    width: 340px;
-    height: 60px;
- 
-    font-family: 'Krona One', sans-serif;
-}
-.login-senha::placeholder{
-    color: #231EFF;
-}
-.esqueceu-senha{
-    text-align: end;
-    color: #231EFF;
-    text-decoration: none;
-    font-size: 15px;
-    font-family: 'Krona One', sans-serif;
+    .apresentacao-inicio{
 
-}
 
-.botao-entrar{
-    border-radius: 20px;
-    text-decoration: none;
-    background-color:#231EFF;
-    width: 290px;
-    height: 50px;
-    color: white;
-    font-family: 'Krona One', sans-serif;
-font-size: 20px;
-display: flex;
-justify-content: center;
-align-items: center;
+        text-align: center;
+        width: 900px;
+        height: 520px;
+        background-color: white;
+        border-radius: 21px;
+    }
 
-}
+    .apresentacao-titulo{
+        display: flex;
+        align-items: center;
+        padding: 1% 2%
 
-.botao-entrar:hover{
-    background-color: #1E90FF;
-    color: white;
-}
-.separa{
-    color: white;
-    display: inline-block;
-    height: 85px;
-    margin: 0px 300px -4px;
-    width: 1px;
-    /* vertical-align: middle; */
-    background-color: white;
-}
-.apresentacao-direita{
-    text-align: center;
-    width: 450px;
-    height: 520px;
-    background-color: white;
-    border-radius: 21px;
-    padding: 5% 2%;
-}
+    }
+    .texto-apresentacao-login{  
+        font-family: 'Krona One', sans-serif;
+        display: flex;
+        align-items: center;
+        color: #231EFF;
+        padding: 0 2%;
+    }
 
-.imagem-direita{
-    width: 400px;
-    height: 433px;
-}
-.barra-opcoes-inicio{
-    background-color:steelblue;
-    margin-bottom: 20px;
-}
+    .texto-barra-login{  
+        font-family: 'Krona One', sans-serif;
+        font-size: 26px;
+        display: flex;
+        align-items: center;
+        color: #F6F6F6;
+        padding: 0 2%;
+    }
+    .apresentacao-login{
+        display: flex;
+        align-items: center;
+        padding: 0 38px;
+        gap: 90px;
 
-.menu-opcoes{
+
+    }
+
+    .imagem-login{
+        width: 60px;
+        height: 70px;
+        
+    }
+
+
+    .login-senha{
+        border-radius: 20px;
+        background-color: white;
+        width: 340px;
+        height: 60px;
+    
+        font-family: 'Krona One', sans-serif;
+    }
+    .login-senha::placeholder{
+        color: #231EFF;
+    }
+    .esqueceu-senha{
+        text-align: end;
+        color: #231EFF;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: 'Krona One', sans-serif;
+
+    }
+
+    .botao-entrar{
+        border-radius: 20px;
+        text-decoration: none;
+        background-color:#231EFF;
+        width: 290px;
+        height: 50px;
+        color: white;
+        font-family: 'Krona One', sans-serif;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 40px;
-    background-color: white;
-    text-align: center;
-    color:#231EFF;
-    width: 200px;
-    height: 60px;
-    margin: 0px 10px;
- 
-    font-family: 'Krona One', sans-serif;
-}
 
-.icone-conta{
-  font-size: 40px;
-  padding: 0 46px;
-}
+    }
 
-.apresentacao-tela-principal{
-    align-items: center;
-    padding: 0% 5%;
-    display: flex;
-    align-items: flex-start;
-    gap:50px;
-    min-height: 80vh;
-   
+    .botao-entrar:hover{
+        background-color: #1E90FF;
+        color: white;
+    }
+    .separa{
+        color: white;
+        display: inline-block;
+        height: 85px;
+        margin: 0px 300px -4px;
+        width: 1px;
+        /* vertical-align: middle; */
+        background-color: white;
+    }
+    .apresentacao-direita{
+        text-align: center;
+        width: 450px;
+        height: 520px;
+        background-color: white;
+        border-radius: 21px;
+        padding: 5% 2%;
+    }
 
-}
+    .imagem-direita{
+        width: 400px;
+        height: 433px;
+    }
+    .barra-opcoes-inicio{
+        background-color:steelblue;
+        margin-bottom: 20px;
+    }
+
+    .menu-opcoes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        background-color: white;
+        text-align: center;
+        color:#231EFF;
+        width: 200px;
+        height: 60px;
+        margin: 0px 10px;
+    
+        font-family: 'Krona One', sans-serif;
+    }
+
+    .icone-conta{
+    font-size: 40px;
+    padding: 0 46px;
+    }
+
+    .apresentacao-tela-principal{
+        align-items: center;
+        padding: 0% 5%;
+        display: flex;
+        align-items: flex-start;
+        gap:50px;
+        min-height: 80vh;
+    
+
+    }
 
 
-.apresentacoes{
-    width: 720px;
-    height: 500px;
-    background-color: white;
-   
-}
+    .apresentacoes{
+        width: 720px;
+        height: 500px;
+        background-color: white;
+    
+    }
 
-.titulo-apresentacao{
-    background-color: steelblue;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    padding: 0 27px;
+    .titulo-apresentacao{
+        background-color: steelblue;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding: 0 27px;
 
-}
+    }
 
-.texto-apresentacao{
-    color: #F6F6F6;
-    font-family: 'Krona One', sans-serif;
+    .texto-apresentacao{
+        color: #F6F6F6;
+        font-family: 'Krona One', sans-serif;
 
-    font-size: 20px;
-}
+        font-size: 20px;
+    }
 
-.agenda{
-    width: 500px;
-    height: 333px;
-    background-color: white;
-}
+    .agenda{
+        width: 500px;
+        height: 333px;
+        background-color: white;
+    }
 
-.titulo-agenda{
-    background-color: steelblue;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    padding: 0 27px;
+    .titulo-agenda{
+        background-color: steelblue;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding: 0 27px;
 
-}
+    }
 
-.texto-agenda{
-    color: #F6F6F6;
-    font-family: 'Krona One', sans-serif;
-    font-size: 20px;
-}
+    .texto-agenda{
+        color: #F6F6F6;
+        font-family: 'Krona One', sans-serif;
+        font-size: 20px;
+    }
 
-.final{
-    background-color: steelblue;
-    height: 68px;
-}
+    .final{
+        background-color: steelblue;
+        height: 68px;
+    }
 
 
