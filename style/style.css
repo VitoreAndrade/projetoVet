@@ -7,12 +7,19 @@
     }
 
     body{
-        min-height: 80vh;
-        background-color:#231EFF;
+        max-height: 80vh;
+        
+        background-color:steelblue;
     }
     .pagina-inicial{
-
+     
         background-color:lavender;
+    }
+    .tudao{
+        max-width: 1200px;
+        margin: 0px 65px;
+
+
     }
 
     .apresentacao{
@@ -101,10 +108,10 @@
         height: 50px;
         color: white;
         font-family: 'Krona One', sans-serif;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
 
@@ -116,7 +123,7 @@
         color: white;
         display: inline-block;
         height: 85px;
-        margin: 0px 300px -4px;
+        margin: 0px 5px -4px;
         width: 1px;
         /* vertical-align: middle; */
         background-color: white;
@@ -127,7 +134,7 @@
         height: 520px;
         background-color: white;
         border-radius: 21px;
-        padding: 5% 2%;
+      
     }
 
     .imagem-direita{
@@ -149,14 +156,14 @@
         color:#231EFF;
         width: 200px;
         height: 60px;
-        margin: 0px 10px;
-    
+        margin: 0px 5px;
+      
         font-family: 'Krona One', sans-serif;
     }
 
     .icone-conta{
     font-size: 40px;
-    padding: 0 46px;
+    margin: 0px 30px;
     }
 
     .apresentacao-tela-principal{
@@ -218,6 +225,7 @@
     .final{
         background-color: steelblue;
         height: 68px;
+        margin: 0 62px;
     }
 
 
