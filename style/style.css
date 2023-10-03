@@ -117,7 +117,7 @@
         color: white;
         display: inline-block;
         height: 85px;
-        margin: 0px 300px -4px;
+        margin: 0px 100px -4px;
         width: 1px;
         /* vertical-align: middle; */
         background-color: white;
@@ -164,20 +164,22 @@
 
     .apresentacao-tela-principal{
         align-items: center; 
-        padding: 0% 3%;
+        padding: 0% 4%;
         display: flex;
         align-items: flex-start;
         gap:50px;
         min-height: 80vh;
+       
     
 
     }
 
 
     .apresentacoes{
-        width: 860px;
-        height: 736px;
+        width: 787px;
+        height: 706px;
         background-color: white;
+        margin-bottom: 20px;
     
     }
 
@@ -198,7 +200,7 @@
     }
 
     .agenda{
-        width: 810px;
+        width: 565px;
         height: 350px;
         background-color: white;
     }
@@ -218,7 +220,7 @@
         font-size: 20px;
     }
     .agendamento{
-        width: 810px;
+        width: 500px;
         height: 279px;
        
         
@@ -228,9 +230,10 @@
     background-color: chartreuse;
     font-family: 'Krona One', sans-serif;
     font-size: 20px;
+    width: 565px;
 }
     .legenda{
-        width: 810px;
+        width: 565px;
         height: 350px;
         background-color: white;
     }
@@ -280,8 +283,8 @@
     .final{
         background-color: steelblue;
         height: 68px;
-        margin: 0 65px;
-        max-width: 1720px;
+        margin: 0 50px;
+       
     }
 
 
