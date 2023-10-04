@@ -423,74 +423,189 @@
         justify-content: center;
         align-items: center;;
     }
+    table {
+        width: 95%;
+        border-collapse: collapse;
+        margin: 0 2rem;
+        gap: 15px;
+    }
+
+    .a{
+        font-family: 'Krona One', sans-serif;
+        font-size: 20px;
+        padding: 15px 20px;
+    }
+    .b{
+ 
+    justify-content: end;
+    display: flex;
+    padding: 21px 40px;
+    height: 60px;
+    }
+
+   .icones{
+    font-size: 25px;
+    display: flex;
+    gap: 15px;
+   }
 
     .lista-clientes{
         list-style: none;
-       
+        padding: 0% 0%;
         display: flex;
         flex-direction: column;
         width: 76rem;
-       
-        gap: 20px;
+        gap: 11px;
     }
     .texto-lista{
         font-family: 'Krona One', sans-serif;
         font-size: 20px;
         background-color: steelblue;
-        height: 56px;
+        height: 55px;
         display: flex;
         align-items: center;
+        padding: 0 1%;
     }
     .texto-lista1{
         font-family: 'Krona One', sans-serif;
         font-size: 20px;
         background-color:lavender ;
-        height: 56px;
+        height: 55px;
         display: flex;
         align-items: center;
+        padding: 0 1%;
     }
     .texto-lista2{
         font-family: 'Krona One', sans-serif;
         font-size: 20px;
         background-color: steelblue;
-        height: 56px;
+        height: 55px;
         display: flex;
         align-items: center;
+        padding: 0 1%;
     }
     .texto-lista3{
         font-family: 'Krona One', sans-serif;
         font-size: 20px;
         background-color: lavender;
-        height: 56px;
+        height: 55px;
         display: flex;
         align-items: center;
+        padding: 0 1%;
     }
     .texto-lista4{
         font-family: 'Krona One', sans-serif;
         font-size: 20px;
         background-color: steelblue;
-        height: 56px;
+        height: 55px;
         display: flex;
         align-items: center;
+        padding: 0 1%;
     }
     .texto-lista5{
         font-family: 'Krona One', sans-serif;
         font-size: 20px;
         background-color: lavender;
-        height: 56px;
+        height: 55px;
         display: flex;
         align-items: center;
+        padding: 0 1%;
     }
     .texto-lista6{
         font-family: 'Krona One', sans-serif;
         font-size: 20px;
         background-color: steelblue;
-        height: 56px;
+        height: 55px;
         display: flex;
         align-items: center;
+        padding: 0 1%;
     }
     .visualizador{
         height: 26px;
+    }
+    .identificadores{
+        display: flex;
+       padding: 1rem;
+       gap: 3rem;
+        
+    }
+  
+    .identificacao1{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+      
+    }
+    .identificacao2{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+      
+    }
+    .identificacao3 {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+      
+    }
+    .conteudo-identificacao{
+        display: flex;
+        padding: 10px;
+        gap: 5rem;
+    }
+    .campo-conteudo-identificacao1{
+        width:340px;
+        height: 32px;
+       
+     
+    }
+    .campo-conteudo-identificacao2{
+        Width: 460px;
+        Height: 32px;
+    }
+    .campo-conteudo-identificacao3{
+        Width: 143px;
+        Height: 32px;
+    }
+    .identificadores-secundarios{
+        display: flex;
+       padding: 1rem;
+       gap: 1.7rem;
+        
+    }
+    .identificacao-secundaria1{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+      
+    }
+        .identificacao-secundaria2{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+      
+    }
+    .campo-conteudo-secundario1{
+        width: 55.5rem;
+        height: 32px;
+       
+    
+    }
+
+    .campo-conteudo-secundario2{
+        width: 12.5rem;
+        height: 32px;
+       
+     
+    }
+    .nomes{
+        font-family: 'Krona One', sans-serif;
+        font-size: 20px;
+        padding: 0 1rem;
+        color: #231EFF;
     }
     .final{
         background-color: steelblue;
