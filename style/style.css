@@ -397,6 +397,13 @@
         box-shadow: 0px 4px 9px black;
         margin-bottom: 2px;
     }
+    .apresentacoes-clientes-cadastrar{
+        width: 76rem;
+        height: 42rem;
+        background-color: white;
+        box-shadow: 0px 4px 9px black;
+        margin-bottom: 2px;
+    }
 
     .botao-cadastrar{
     font-size: 26px;
@@ -406,6 +413,15 @@
     width: 75rem;
     padding: 1%;
     }
+    .botao-cadastrar-cliente{
+        font-size: 26px;
+        display: flex;
+        text-align: end;
+        justify-content: end;
+        width: 75rem;
+        padding: 0%;
+        gap: 16px;
+        }
     .conteudo-botao:hover{
         background-color: #1E90FF;
         color: white;
@@ -565,7 +581,7 @@
         Height: 32px;
     }
     .campo-conteudo-identificacao3{
-        Width: 143px;
+        Width: 12.6rem;
         Height: 32px;
     }
     .identificadores-secundarios{
@@ -601,10 +617,101 @@
        
      
     }
+    .identificadores-tercearios{
+        display: flex;
+       padding: 1rem;
+       gap: 1.7rem;
+        
+    }
+    .identificacao-terceario1{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+      
+    }
+    .identificacao-terceario2{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+      
+    }
+    .identificacao-terceario3{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+      
+    }
+    .campo-conteudo-terceario1{
+        width: 10.5rem;
+        height: 32px;
+       
+    
+    }
+
+    .campo-conteudo-terceario2{
+        width: 25.5rem;
+        height: 32px;
+       
+    
+    }
+    .campo-conteudo-terceario3{
+        width: 29.2rem;
+        height: 32px;
+       
+    
+    }
+    .identificadores-quaternarios{
+        display: flex;
+       padding: 1rem;
+       gap: 1.7rem;
+        
+    }
+    .identificacao-quaternario1{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+      
+    } 
+    .identificacao-quaternario2{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+      
+    }
+    .identificacao-quaternario3{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+      
+    }
+    .campo-conteudo-quaternario1{
+        width: 12.5rem;
+        height: 7rem;
+       
+    
+    }
+    .campo-conteudo-quaternario2{
+        width: 10.2rem;
+        height: 32px;
+       
+    
+    }
+    .campo-conteudo-quaternario3{
+        width: 22.2rem;
+        height: 32px;
+       
+    
+    }
     .nomes{
         font-family: 'Krona One', sans-serif;
         font-size: 20px;
-        padding: 0 1rem;
+        
         color: #231EFF;
     }
     .final{
