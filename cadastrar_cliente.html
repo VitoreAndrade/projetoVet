@@ -65,81 +65,88 @@
                 <h2 class="nomes">
                     Nome:
                 </h2>
-                <input class="campo-conteudo-identificacao1" type="text" id="username" name="username">
+                <input class="campo-conteudo-identificacao1 campos-estilizado" type="text">
               </div>
               <div class="identificacao2">
                 <h2 class="nomes">
                     Nome do pet:
                 </h2>
-                <input class="campo-conteudo-identificacao2" type="text" id="username" name="username">
+                <input class="campo-conteudo-identificacao2 campos-estilizado" type="text">
               </div>
               <div class="identificacao3">
                 <h2 class="nomes">
-                    cpf
+                    cpf:
                 </h2>
-                <input class="campo-conteudo-identificacao3" type="text" id="username" name="username">
+                <input class="campo-conteudo-identificacao3 campos-estilizado" type="text">
               </div>        
             </div>
             <div class="identificadores-secundarios">
               <div class="identificacao-secundaria1">
                 <h2 class="nomes">
-                    Endereco
+                    Endereco:
                 </h2>
-                <input class="campo-conteudo-secundario1" type="text" id="username" name="username">
+                <input class="campo-conteudo-secundario1 campos-estilizado" type="text">
               </div>
               <div class="identificacao-secundaria2">
                 <h2 class="nomes">
-                    Raça do pet
+                    Raça do pet:
                 </h2>
-                <input class="campo-conteudo-secundario2" type="text" id="username" name="username">
+                <input class="campo-conteudo-secundario2 campos-estilizado" type="text">
               </div>
             </div>
             <div class="identificadores-tercearios">
               <div class="identificacao-terceario1">
                 <h2 class="nomes">
-                    Bairro
+                    Bairro:
                 </h2>
-                <input class="campo-conteudo-terceario1" type="text" id="username" name="username">
+                <input class="campo-conteudo-terceario1 campos-estilizado" type="text">
               </div>
               <div class="identificacao-terceario2">
                 <h2 class="nomes">
-                    Telefone
+                    Telefone:
                 </h2>
-                <input class="campo-conteudo-terceario2" type="text" id="username" name="username">
+                <input class="campo-conteudo-terceario2 campos-estilizado" type="text">
               </div>
               <div class="identificacao-terceario3">
                 <h2 class="nomes">
-                    Email
+                    Email:
                 </h2>
-                <input class="campo-conteudo-terceario3" type="text" id="username" name="username">
+                <input class="campo-conteudo-terceario3 campos-estilizado" type="text">
               </div>
             </div>
             <div class="identificadores-quaternarios">
               <div class="identificacao-quaternario1">
                 <h2 class="nomes">
-                  Imagem do pet
+                  Imagem do pet:
                 </h2>
-                <input class="campo-conteudo-quaternario1" type="text" id="username" name="username">
-              </div>
+                <label for="fileInput" class="campo-conteudo-quaternario1 campos-estilizado">
+                  
+                  <input type="file" id="fileInput" class="campo-conteudo-quaternario1-input">
+                  <i class="bi bi-cloud-arrow-down-fill icones-foto">Baixar arquivo</i>
+                  
+              </label>
+        
+            </div>
               <div class="identificacao-quaternario2">
                 <h2 class="nomes">
-                    Idade do pet
+                    Idade do pet:
                 </h2>
-                <input class="campo-conteudo-quaternario2" type="text" id="username" name="username">
+                <input class="campo-conteudo-quaternario2 campos-estilizado" type="text">
               </div>
               <div class="identificacao-terceario3">
                 <h2 class="nomes">
-                    Data de nascimento do pet
+                    Data de nascimento do pet:
                 </h2>
-                <input class="campo-conteudo-quaternario3" type="text" id="username" name="username">
+                <input class="campo-conteudo-quaternario3 campos-estilizado" type="text">
               </div>
             </div>
             <div class="botao-cadastrar-cliente">
-              <a href="cadastrar_cliente.html" class="conteudo-botao">Cadastrar</a>
+              <a href="#" class="conteudo-botao" data-bs-toggle="modal" data-bs-target="#exampleModal">Cadastrar</a>
               <a href="clientes.html" class="conteudo-botao">voltar</a>
             </div>
             </div>
-          </div>   
+          </div>  
+          
   </main>
   <div class="d-flex w-100 justify-content-center">
     <footer class="final">
@@ -149,6 +156,31 @@
 
     </footer>
   </div>
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+       
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h2 class="nomes">
+        Deseja cadastrar outro Pet?
+      </h2>
+      </div>
+      <div class="modal-footer ">
+        <button type="button" class="btn btn-secondary botao-cadastrar-cliente" data-bs-dismiss="modal">Sim</button>
+        <button href="clientes.html" type="button" class="btn btn-primary botao-cadastrar-cliente"><a 
+         href="clientes.html" class="conteudo-botao">Não </a></button>
+          
+      </div>
+    </div>
+  </div>
+</div>
+
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">

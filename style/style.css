@@ -7,6 +7,7 @@
     }
 
     body{
+       
         min-height: 80vh;
         background-color:#231EFF;
     }
@@ -140,7 +141,6 @@
     .barra-opcoes-inicio{
         background-color:steelblue;
         margin-bottom: 20px;
-    
         
     }
 
@@ -464,6 +464,10 @@
     display: flex;
     gap: 15px;
    }
+   .icones-foto{
+    font-size: 25px;
+   
+   }
 
     .lista-clientes{
         list-style: none;
@@ -574,7 +578,16 @@
         width:340px;
         height: 32px;
        
-     
+    }
+
+    .campos-estilizado{
+        border: 3px solid #231EFF2B;
+        border-left: 12px solid #231EFF2B;
+        border-right: 12px solid #231EFF2B;
+        padding: 0 10px;
+    }
+    .campo-estilizado:focus-visible{
+        outline: none;
     }
     .campo-conteudo-identificacao2{
         Width: 460px;
@@ -695,6 +708,25 @@
         height: 7rem;
        
     
+    }
+    .campo-conteudo-quaternario1{
+        display: inline-block;
+        width: 12.5rem;
+        height: 7rem;
+        text-align: center;
+        line-height: 7rem;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .campo-conteudo-quaternario1-input {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
     .campo-conteudo-quaternario2{
         width: 10.2rem;
