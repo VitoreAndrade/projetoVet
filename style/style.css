@@ -418,8 +418,8 @@
         display: flex;
         text-align: end;
         justify-content: end;
-        width: 75rem;
-        padding: 0%;
+   
+        padding: 0% 4%;
         gap: 16px;
         }
     .conteudo-botao:hover{
@@ -452,21 +452,25 @@
         padding: 15px 20px;
     }
     .b{
- 
-    justify-content: end;
-    display: flex;
-    padding: 21px 40px;
-    height: 60px;
+        justify-content: end;
+        display: flex;
+        padding: 21px 17px;
+        height: 60px;
+        gap: 12px;
     }
 
    .icones{
     font-size: 25px;
     display: flex;
-    gap: 15px;
+    gap: 20px;
    }
    .icones-foto{
     font-size: 25px;
    
+   }
+   .visualize{
+    text-decoration: none;
+    color: black;
    }
 
     .lista-clientes{
@@ -586,7 +590,14 @@
         border-right: 12px solid #231EFF2B;
         padding: 0 10px;
     }
-    .campo-estilizado:focus-visible{
+    .campos-estilizado-bloqueado{
+        border: 3px solid #231EFF2B;
+        border-left: 12px solid #231EFF2B;
+        border-right: 12px solid #231EFF2B;
+        background-color: darkgrey;
+        padding: 0 10px;
+    }
+    .campos-estilizado:focus-visible{
         outline: none;
     }
     .campo-conteudo-identificacao2{
@@ -740,6 +751,29 @@
        
     
     }
+    .botoes{
+        border-radius: 20px;
+        text-decoration: none;
+      
+        width: 18rem;
+        height: 3rem;
+        color: white;
+        font-family: 'Krona One', sans-serif;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;;
+    }
+  
+
+    .nomes-modal{
+        font-family: 'Krona One', sans-serif;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        color: #231EFF;
+    }
+  
     .nomes{
         font-family: 'Krona One', sans-serif;
         font-size: 20px;
