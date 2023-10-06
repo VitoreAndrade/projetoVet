@@ -10,12 +10,12 @@
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <link href="style/style.css" rel="stylesheet">
+  <link href="style/style_servicos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
 </head>
 
-<body class="pagina-inicial">
+<body class="pagina-inicial-servicos">
   <header>
 
     <header class="d-flex justify-content-center">
@@ -55,17 +55,21 @@
     </header>
     <main class="apresentacao-tela-principal justify-content-center">
 
-      <div class="apresentacoes-clientes">
+      <div class="apresentacoes-produtos-cadastrar">
         <div class="titulo-apresentacao">
           <h2 class="texto-apresentacao">
             Manutenção de serviços e produtos
           </h2>
         </div>
+        <!-- <div class="botao-cadastrar">
+          <a href="cadastrar_produto.html" class="conteudo-botao">Cadastrar</a>
+        </div> -->
         <div class="botao-cadastrar">
-          <a href="cadastrar_cliente.html" class="conteudo-botao">Cadastrar</a>
+          <a href="cadastrar_produto.html" class="conteudo-botao" data-bs-toggle="modal" data-bs-target="#exampleModal">Cadastrar</a>
+       
         </div>
 
-        <div class="lista-clientes">
+        <div class="lista-produtos">
           <table>
             <tbody>
               <tr style="background-color: lavender">
@@ -153,6 +157,27 @@
 
       </footer>
     </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg justify-content-center">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body alling-itens-center justify-content-center">
+        <h2 class="nomes">
+       O que deseja cadastrar ?
+      </h2>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <button type="button" class="btn botao-cadastrar-cliente" data-bs-dismiss="modal"><a 
+            href="cadastrar_produto.html" class=" conteudo-botao">Produto</a></button>
+          <button type="button" class="btn botao-cadastrar-produto"><a 
+           href="cadastrar_servico.html" class="conteudo-botao">Servico </a></button>
+          
+      </div>
+    </div>
+  </div>
+</div>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
