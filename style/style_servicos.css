@@ -61,7 +61,7 @@
 
 .apresentacoes-produtos-cadastrar{
     width: 76rem;
-    height: 37rem;
+    height: 40rem;
     background-color: white;
     box-shadow: 0px 4px 9px black;
     margin-bottom: 2px;
@@ -156,8 +156,8 @@
 
     .identificadores{
         display: flex;
-       padding: 1rem;
-       gap: 2rem;
+        padding: 1rem;
+        gap: 4rem;
         
     }
   
@@ -208,7 +208,7 @@
         outline: none;
     }
     .campo-conteudo-servico-identificacao2{
-        Width:30rem;
+        Width:24rem;
         Height: 32px;
     }
     .campo-conteudo-servico-identificacao3{
@@ -221,8 +221,9 @@
     }
     .identificadores-secundarios{
         display: flex;
-       padding: 1rem;
-       gap: 1.7rem;
+       padding: 1rem 1rem;
+       gap: 3.9rem;
+    
         
     }
     .identificacao-secundaria1{
@@ -239,15 +240,29 @@
         
       
     }
+
+.identificacao-secundaria3{
+display: flex;
+flex-direction: column;
+padding: 10px;
+
+
+}
     .campo-conteudo-servico-secundario1{
-        width: 55.5rem;
+        width: 46rem;
         height: 32px;
        
     
     }
 
     .campo-conteudo-servico-secundario2{
-        width: 12.5rem;
+        width: 6.5rem;
+        height: 32px;
+       
+     
+    }   
+    .campo-conteudo-servico-secundario3{
+        width: 6.5rem;
         height: 32px;
        
      
@@ -300,7 +315,7 @@
     }
     .identificadores-quaternarios{
         display: flex;
-       padding: 1rem;
+       padding: 0rem 1rem;
        gap: 1.7rem;
         
     }
@@ -325,16 +340,11 @@
         
       
     }
-    .campo-conteudo-servico-quaternario1{
-        width: 12.5rem;
-        height: 7rem;
-       
-    
-    }
+
     .campo-conteudo-servico-quaternario1{
         display: inline-block;
         width: 12.5rem;
-        height: 7rem;
+        height: 12rem;
         text-align: center;
         line-height: 7rem;
         cursor: pointer;
@@ -351,8 +361,9 @@
         left: 0;
     }
     .campo-conteudo-servico-quaternario2{
-        width: 10.2rem;
-        height: 32px;
+        width: 25.2rem;
+        height: 12rem;
+        display: flex;
        
     
     }
@@ -368,7 +379,7 @@
         text-align: end;
         justify-content: end;
    
-        padding: 0% 4%;
+        padding: 3% 4%;
         gap: 16px;
         }
         .texto-barra-login{  
@@ -379,3 +390,42 @@
             color: #F6F6F6;
             padding: 0 0%;
         }
+        .especialidades{
+            width: 20rem;
+        }
+
+        .texto-especialidade1{
+            background-color: #4EF41461;
+            font-family: 'Krona One', sans-serif;
+            font-size: 20px;
+            width:8rem;
+            height: 2rem;
+        
+    
+        }
+        .texto-especialidade2{
+            background-color: #F4221461;
+            font-family: 'Krona One', sans-serif;
+            font-size: 20px;
+            width: 8rem;
+            height: 2rem;
+           
+        }
+        .texto-especialidade3{
+            background-color: #1914F461;
+            font-family: 'Krona One', sans-serif;
+            font-size: 20px;
+            width:8rem;
+            height: 2rem;
+          
+            
+        }
+        .texto-especialidade4{
+            background-color: #191B1961;
+            font-family: 'Krona One', sans-serif;
+            font-size: 20px;
+            width: 5rem;
+            height: 2rem;
+    
+        }
+     
