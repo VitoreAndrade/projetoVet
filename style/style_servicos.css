@@ -5,7 +5,7 @@
     padding: 0;
 }
 .pagina-inicial-servicos{
-    
+    min-height: 80vh;
 
     background-color:lavender;
 }
@@ -117,16 +117,18 @@
     }
 
     .a{
-        font-family: 'Krona One', sans-serif;
-        font-size: 20px;
-        padding: 15px 20px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    width: 400px;
+    padding: 15px 10px;
     }
     .b{
-        justify-content: end;
-        display: flex;
-        padding: 21px 17px;
-        height: 60px;
-        gap: 12px;
+    justify-content: end;
+    display: flex;
+    padding: 21px 17px;
+    height: 60px;
+    gap: 12px;
+    width: 125px;
     }
     .visualize{
         text-decoration: none;
@@ -204,7 +206,7 @@
         background-color: darkgrey;
         padding: 0 10px;
     }
-    .campos-estilizado:focus-visible{
+    .campos-estilizado-servico:focus-visible{
         outline: none;
     }
     .campo-conteudo-servico-identificacao2{
@@ -222,7 +224,7 @@
     .identificadores-secundarios{
         display: flex;
        padding: 1rem 1rem;
-       gap: 3.9rem;
+       gap: 3.7rem;
     
         
     }
@@ -256,7 +258,56 @@ padding: 10px;
     }
 
     .campo-conteudo-servico-secundario2{
+        width: 18.5rem;
+        height: 32px;
+       
+     
+    }   
+    .campo-conteudo-servico-secundario3{
         width: 6.5rem;
+        height: 32px;
+       
+     
+    }
+
+    .identificadores-secundarios{
+        display: flex;
+       padding: 1rem 1rem;
+       gap: 3.7rem;
+    
+        
+    }
+    .identificacao-secundaria1{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+      
+    }
+        .identificacao-secundaria2{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+      
+    }
+
+.identificacao-secundaria3{
+display: flex;
+flex-direction: column;
+padding: 10px;
+
+
+}
+    .campo-conteudo-servico-secundario1{
+        width: 46rem;
+        height: 32px;
+       
+    
+    }
+
+    .campo-conteudo-servico-secundario2{
+        width: 7.5rem;
         height: 32px;
        
      
@@ -428,4 +479,23 @@ padding: 10px;
             height: 2rem;
     
         }
-     
+
+        .perfil{
+            cursor: pointer;
+            width: 100px;
+            height: 100px;
+            box-sizing: border-box;
+            border-radius: 100%;
+            border: 2px solid transparent;
+            background-color: white;
+            display: flex;
+            align-items: center;
+          }
+          .perfil-foto:hover {
+            box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+          }
+    
+          .foto-perfil{
+            width: 95px;
+            height: 80px;
+          }
