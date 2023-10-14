@@ -9,7 +9,7 @@
     body{
        
         min-height: 80vh;
-        background-color:#231EFF;
+        background-color:lavender;
     }
     .pagina-inicial{
     
@@ -20,7 +20,7 @@
     .apresentacao{
       
         align-items: center;
-        padding: 10% 10%;
+        padding: 8% 10%;
         display: flex;
         justify-content: center;
     
@@ -39,6 +39,7 @@
         height: 32rem;
         background-color: white;
         border-radius: 21px;
+        box-shadow: 0px 4px 9px black;
     }
 
     .apresentacao-titulo{
@@ -101,7 +102,7 @@
         border-radius: 20px;
         text-decoration: none;
         background-color:#231EFF;
-        width: 18rem;
+        width: 21rem;
         height: 3rem;
         color: white;
         font-family: 'Krona One', sans-serif;
@@ -136,7 +137,7 @@
 
     .imagem-direita{
         width: 400px;
-        height: 433px;
+        height: 327px;
     }
     .barra-opcoes-inicio{
         background-color:steelblue;
@@ -231,6 +232,10 @@
         gap: 19px;
         flex-direction: column;
         align-items: center;
+        list-style-type: none;
+        padding: 1%;
+        overflow-y: auto;
+        overflow-x: hidden;
    
     }
 
@@ -607,6 +612,13 @@
         width: 95px;
         height: 80px;
       }
+      .campos-login{
+        padding: 0 10px;
+      }
+      .campos-login:focus-visible{
+        outline: none;
+    }
+
       
     .campos-estilizado{
         border: 3px solid #231EFF2B;

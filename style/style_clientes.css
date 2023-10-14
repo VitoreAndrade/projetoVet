@@ -73,7 +73,11 @@
     background-color: white;
     box-shadow: 0px 4px 9px black;
     margin-bottom: 2px;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
+
+
 .titulo-apresentacao{
     background-color: steelblue;
     height: 4rem;
