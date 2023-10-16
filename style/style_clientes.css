@@ -40,9 +40,7 @@
     margin: 0px 9px;
     font-family: 'Krona One', sans-serif;
 }
-.menu-opcoes:active{
-    background-color: red;
-}
+
 .separa{
     color: white;
     display: inline-block;

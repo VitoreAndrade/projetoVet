@@ -102,6 +102,8 @@
 
     }
 
+
+
     .botao-entrar{
         border-radius: 20px;
         text-decoration: none;
@@ -161,9 +163,20 @@
         margin: 0px 9px;
         font-family: 'Krona One', sans-serif;
     }
-    .menu-opcoes:active{
-        background-color: red;
+    .menu-opcoes-inicial{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        background-color: white;
+        text-align: center;
+        height: 4rem;
+        width: 78rem;
+        margin: 0px 9px;
+        font-family: 'Krona One', sans-serif;
     }
+ 
+ 
 
     .local-foto{
         background-color: white;
