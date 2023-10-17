@@ -27,11 +27,6 @@
     }
 
 
-    .tudao{
-        max-width: 107rem;
-        margin: 0px 3rem;
-        width: 79rem;
-    } 
 
     .apresentacao-inicio{
         text-align: center;
@@ -124,13 +119,12 @@
         color: white;
     }
     .separa{
-        color: white;
-        display: inline-block;
-        height: 5rem;
-        margin: 0px 3rem -4px;
-        width: 1px;
-        /* vertical-align: middle; */
-        background-color: white;
+    color: white;
+    display: inline-block;
+    height: 5rem;
+    margin: -44px 4rem -23px;
+    width: 1px;   
+    background-color: white;
     }
     .apresentacao-direita{
         text-align: center;
@@ -151,32 +145,40 @@
         
     }
 
-    .menu-opcoes{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 40px;
-        background-color: white;
-        text-align: center;
-        height: 4rem;
-        width: 12rem;
-        margin: 0px 9px;
-        font-family: 'Krona One', sans-serif;
-    }
+ 
     .menu-opcoes-inicial{
         display: flex;
         justify-content: center;
         align-items: center;
-    
-        background-color: white;
+        margin-bottom: 20px;
+        background-color:steelblue;
         text-align: center;
         height: 4rem;
         width: 78rem;
-        margin: 0px 9px;
+       
         font-family: 'Krona One', sans-serif;
     }
+    .btn-navbar{
+        border: 2px solid;
+        background-color: white;
+        gap: 1;
+        margin: 0px 1rem;
+        border-radius: 23px;
+        width: 11rem;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
  
- 
+    .avaliacoes{
+       display: flex;
+       align-items: center;
+       padding: 1rem 1rem
+
+    }
+
+    
 
     .local-foto{
         background-color: white;
@@ -198,10 +200,13 @@
 
 
     .apresentacoes{
+       
         width: 50rem;
         height: 34rem;
         background-color: white;
         box-shadow: 0px 4px 9px black;
+        overflow-y: auto;
+        overflow-x: hidden;
     }
 
     .titulo-apresentacao{
@@ -483,11 +488,18 @@
         height: 60px;
         gap: 12px;
     }
+    .icones-avaliacao{
+        font-size: 22px;
+        border: 3px solid #231EFF2B;
+        border-left: 12px solid #231EFF2B;
+        
+    }
 
    .icones{
     font-size: 25px;
     display: flex;
     gap: 20px;
+  
    }
    .icones-foto{
     font-size: 25px;
@@ -626,8 +638,8 @@
       }
 
       .foto-perfil{
-        width: 95px;
-        height: 80px;
+        width: 70px;
+        height: 50px;
       }
       .campos-login{
         padding: 0 10px;
@@ -742,17 +754,21 @@
     }
     .identificadores-quaternarios{
         display: flex;
-       padding: 1rem;
-       gap: 1.7rem;
+       padding: 0rem 1rem;
+       gap: 5.4rem;
         
     }
     .identificacao-quaternario1{
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        
-      
+        width: 12.5rem;
+        height: 12rem;
+        text-align: center;
+    
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        padding: 3rem;
     } 
+
     .identificacao-quaternario2{
         display: flex;
         flex-direction: column;
@@ -768,15 +784,17 @@
       
     }
     .campo-conteudo-quaternario1{
+        display: inline-block;
         width: 12.5rem;
-        height: 12rem;
-        text-align: center;
-      
-        cursor: pointer;
-        position: relative;
-        overflow: hidden;
-        padding: 3rem;
-       
+        height: 9rem;
+        padding: 1rem;
+    
+    }
+    .campo-conteudo-descricao{
+        display: inline-block;
+        width: 20rem;
+        height: 2.4rem;
+        
     
     }
     .campo-conteudo-quaternario1{
@@ -784,7 +802,7 @@
         width: 12.5rem;
         height: 7rem;
         text-align: center;
-        line-height: 7rem;
+     
         cursor: pointer;
         position: relative;
         overflow: hidden;
@@ -841,7 +859,7 @@
     }
     .final{
         background-color: steelblue;
-        height: 4rem;
+        height: 2rem;
         margin: 0 0rem;
         width: 79rem;
     }

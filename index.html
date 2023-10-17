@@ -35,7 +35,8 @@
             <input class="login-senha campos-login" type="text" id="username" name="username" placeholder="Username"><br><br>
             <input class="login-senha campos-login" type="password" id="password" name="password" placeholder="Senha">
             <div class="esqueceu-senha">
-              <a class="esqueceu-senha btn-esqueceu-senha" href="#">Esqueceu a senha ?</a>  
+              <a class="esqueceu-senha btn-esqueceu-senha" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Esqueceu a senha ?</a> 
+              
               <input type="checkbox" id="ckb-password">
               
               
@@ -55,9 +56,42 @@
   </section>
 
   </main>
+
   <footer>
     <!-- place footer here -->
   </footer>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg justify-content-center">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body alling-itens-center justify-content-center">
+          <div class="apresentacao-titulo">
+            <img src="./assets/Vector.png" class="imagem-login">
+            <h2 class="texto-apresentacao-login">
+             Ipet
+            </h2>
+        
+            </div>
+        </div>
+        <div class="apresentacao-login">
+        
+          <div class="formulario-login">
+            <form action="processar_login.php" method="post">
+              <input class="login-senha campos-login" type="text" id="username" name="username" placeholder="Username"><br><br>
+
+             
+        <div class="modal-footer justify-content-center">
+          <button type="button" class="btn botao-cadastrar-cliente" data-bs-dismiss="modal"><a 
+              href="#" class=" conteudo-botao">Sim</a></button>
+            <!-- <button href="servicos.html" type="button" class="btn botao-cadastrar-cliente"><a 
+             href="servicos.html" class="conteudo-botao">Não </a></button> -->
+            
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">

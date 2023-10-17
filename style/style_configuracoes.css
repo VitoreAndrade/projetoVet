@@ -7,11 +7,31 @@
 .pagina-inicial-configuracoes{
     background-color:lavender;
 }
-.tudao{
-    max-width: 107rem;
-    margin: 0px 3rem;
-    width: 79rem;
-} 
+.menu-opcoes-inicial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color:steelblue;
+    text-align: center;
+    height: 4rem;
+    width: 78rem;
+   
+    font-family: 'Krona One', sans-serif;
+}
+.btn-navbar{
+    border: 2px solid;
+    background-color: white;
+    gap: 1;
+    margin: 0px 1rem;
+    border-radius: 23px;
+    width: 11rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .texto-barra-login{  
     font-family: 'Krona One', sans-serif;
     font-size: 26px;
@@ -39,9 +59,8 @@
     color: white;
     display: inline-block;
     height: 5rem;
-    margin: 0px 3rem -4px;
-    width: 1px;
-    /* vertical-align: middle; */
+    margin: -44px 4rem -23px;
+    width: 1px;   
     background-color: white;
 }
 
@@ -63,8 +82,8 @@
   }
 
   .foto-perfil{
-    width: 95px;
-    height: 80px;
+    width: 70px;
+    height: 50px;
   }
   .apresentacao-tela-principal{
     align-items: center; 
@@ -340,7 +359,7 @@
         }
         .final{
             background-color: steelblue;
-            height: 4rem;
+            height: 2rem;
             margin: 0 0rem;
             width: 79rem;
         }

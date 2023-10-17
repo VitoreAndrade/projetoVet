@@ -40,14 +40,37 @@
     margin: 0px 9px;
     font-family: 'Krona One', sans-serif;
 }
+.menu-opcoes-inicial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color:steelblue;
+    text-align: center;
+    height: 4rem;
+    width: 78rem;
+   
+    font-family: 'Krona One', sans-serif;
+}
+.btn-navbar{
+    border: 2px solid;
+    background-color: white;
+    gap: 1;
+    margin: 0px 1rem;
+    border-radius: 23px;
+    width: 11rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .separa{
     color: white;
     display: inline-block;
     height: 5rem;
-    margin: 0px 3rem -4px;
-    width: 1px;
-    /* vertical-align: middle; */
+    margin: -44px 4rem -23px;
+    width: 1px;   
     background-color: white;
 }
 .local-foto{
@@ -129,12 +152,12 @@
     .a{
         font-family: 'Krona One', sans-serif;
         font-size: 20px;
-        padding: 15px 20px;
+        padding: 15px 14px;
     }
     .b{
         justify-content: end;
         display: flex;
-        padding: 21px 17px;
+        padding: 21px 50px;
         height: 60px;
         gap: 12px;
     }
@@ -159,7 +182,7 @@
     }
     .final{
         background-color: steelblue;
-        height: 4rem;
+        height: 2rem;
         margin: 0 0rem;
         width: 79rem;
     }    
@@ -179,6 +202,6 @@
       }
 
       .foto-perfil{
-        width: 95px;
-        height: 80px;
+        width: 70px;
+        height: 50px;
       }
