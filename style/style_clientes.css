@@ -44,7 +44,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-color:steelblue;
     text-align: center;
     height: 4rem;
@@ -85,12 +85,12 @@
     display: flex;
     align-items: flex-start;
     gap:2rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .apresentacoes-clientes{
     width: 76rem;
-    height: 37rem;
+    height: 35rem;
     background-color: white;
     box-shadow: 0px 4px 9px black;
     margin-bottom: 2px;

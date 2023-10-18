@@ -15,7 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-color:steelblue;
     text-align: center;
     height: 4rem;
@@ -36,6 +36,9 @@
     justify-content: center;
 }
 
+.marcacao{
+padding: 0rem 4rem;
+}
 
 .barra-opcoes-inicio {
     background-color: steelblue;
@@ -82,7 +85,7 @@
     display: flex;
     align-items: flex-start;
     gap: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .apresentacoes-produtos-cadastrar {
@@ -456,7 +459,7 @@
     width: 12.5rem;
     height: 7rem;
     text-align: center;
-    line-height: 7rem;
+   
     cursor: pointer;
     position: relative;
     overflow: hidden;

@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-color:steelblue;
     text-align: center;
     height: 4rem;
@@ -92,7 +92,7 @@ body{
     display: flex;
     align-items: flex-start;
     gap:2rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .apresentacoes-clientes-cadastrar{
     width: 76rem;
