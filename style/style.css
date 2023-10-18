@@ -27,6 +27,11 @@
     }
 
 
+    .tudao{
+        max-width: 107rem;
+        margin: 0px 3rem;
+        width: 79rem;
+    } 
 
     .apresentacao-inicio{
         text-align: center;
@@ -40,6 +45,13 @@
     .apresentacao-titulo{
         display: flex;
         align-items: center;
+        padding: 1% 2%
+
+    }
+    .apresentacao-titulo-modal{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         padding: 1% 2%
 
     }
@@ -69,6 +81,12 @@
         gap: 6rem;
     }
 
+    .apresentacao-login-modal{
+        display: flex;
+        align-items: center;
+        padding: 0 3rem;
+        gap: 6rem;
+    }
     .imagem-login{
         width: 4rem;
         height: 5rem;
@@ -97,8 +115,6 @@
 
     }
 
-
-
     .botao-entrar{
         border-radius: 20px;
         text-decoration: none;
@@ -119,12 +135,12 @@
         color: white;
     }
     .separa{
-    color: white;
-    display: inline-block;
-    height: 5rem;
-    margin: -44px 4rem -23px;
-    width: 1px;   
-    background-color: white;
+        color: white;
+        display: inline-block;
+        height: 5rem;
+        margin: -44px 4rem -23px;
+        width: 1px;   
+        background-color: white;
     }
     .apresentacao-direita{
         text-align: center;
@@ -145,18 +161,19 @@
         
     }
 
- 
-    .menu-opcoes-inicial{
+    .menu-opcoes-inicial    {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 20px;
-        background-color:steelblue;
+        background-color: steelblue;
         text-align: center;
         height: 4rem;
         width: 78rem;
-       
         font-family: 'Krona One', sans-serif;
+    }
+    .menu-opcoes:active{
+        background-color: red;
     }
     .btn-navbar{
         border: 2px solid;
@@ -170,15 +187,6 @@
         align-items: center;
         justify-content: center;
     }
- 
-    .avaliacoes{
-       display: flex;
-       align-items: center;
-       padding: 1rem 1rem
-
-    }
-
-    
 
     .local-foto{
         background-color: white;
@@ -200,13 +208,10 @@
 
 
     .apresentacoes{
-       
         width: 50rem;
         height: 34rem;
         background-color: white;
         box-shadow: 0px 4px 9px black;
-        overflow-y: auto;
-        overflow-x: hidden;
     }
 
     .titulo-apresentacao{
@@ -469,6 +474,29 @@
         justify-content: center;
         align-items: center;;
     }
+    .conteudo-botao-recuperar-senha{
+        border-radius: 20px;
+        text-decoration: none;
+        background-color: #231EFF;
+        width: 20.9rem;
+        height: 3rem;
+        color: white;
+        font-family: 'Krona One', sans-serif;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+    .conteudo-botao-recuperar-senha:focus-visible{
+        outline: none;
+    }
+    .avaliacoes{
+        display: flex;
+        align-items: center;
+        padding: 1rem 1rem
+ 
+     }
+    
     table {
         width: 95%;
         border-collapse: collapse;
@@ -488,18 +516,11 @@
         height: 60px;
         gap: 12px;
     }
-    .icones-avaliacao{
-        font-size: 22px;
-        border: 3px solid #231EFF2B;
-        border-left: 12px solid #231EFF2B;
-        
-    }
 
    .icones{
     font-size: 25px;
     display: flex;
     gap: 20px;
-  
    }
    .icones-foto{
     font-size: 25px;
@@ -637,10 +658,11 @@
         box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
       }
 
-      .foto-perfil{
-        width: 70px;
-        height: 50px;
-      }
+        .foto-perfil{
+            width: 70px;
+            height: 50px;
+          }
+    
       .campos-login{
         padding: 0 10px;
       }
@@ -754,21 +776,17 @@
     }
     .identificadores-quaternarios{
         display: flex;
-       padding: 0rem 1rem;
-       gap: 5.4rem;
+       padding: 1rem;
+       gap: 1.7rem;
         
     }
     .identificacao-quaternario1{
-        width: 12.5rem;
-        height: 12rem;
-        text-align: center;
-    
-        cursor: pointer;
-        position: relative;
-        overflow: hidden;
-        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+      
     } 
-
     .identificacao-quaternario2{
         display: flex;
         flex-direction: column;
@@ -784,17 +802,9 @@
       
     }
     .campo-conteudo-quaternario1{
-        display: inline-block;
         width: 12.5rem;
-        height: 9rem;
-        padding: 1rem;
-    
-    }
-    .campo-conteudo-descricao{
-        display: inline-block;
-        width: 20rem;
-        height: 2.4rem;
-        
+        height: 7rem;
+       
     
     }
     .campo-conteudo-quaternario1{
@@ -802,7 +812,7 @@
         width: 12.5rem;
         height: 7rem;
         text-align: center;
-     
+        line-height: 7rem;
         cursor: pointer;
         position: relative;
         overflow: hidden;

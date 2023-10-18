@@ -37,7 +37,7 @@
             <div class="esqueceu-senha">
               <a class="esqueceu-senha btn-esqueceu-senha" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Esqueceu a senha ?</a> 
               
-              <input type="checkbox" id="ckb-password">
+            
               
               
             </div><br><br>
@@ -66,29 +66,34 @@
         <div class="modal-header">
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body alling-itens-center justify-content-center">
-          <div class="apresentacao-titulo">
+        <div class="modal-body justify-content-center">
+          <div class="apresentacao-titulo-modal">
             <img src="./assets/Vector.png" class="imagem-login">
             <h2 class="texto-apresentacao-login">
              Ipet
             </h2>
         
             </div>
-        </div>
-        <div class="apresentacao-login">
+            <div class="modal-body ">
+              <h2 class="nomes-modal">
+                Recuperar senha
+              </h2>
+            </div>
+        
+     
+        <div class="apresentacao-login-modal">
         
           <div class="formulario-login">
-            <form action="processar_login.php" method="post">
-              <input class="login-senha campos-login" type="text" id="username" name="username" placeholder="Username"><br><br>
-
-             
-        <div class="modal-footer justify-content-center">
-          <button type="button" class="btn botao-cadastrar-cliente" data-bs-dismiss="modal"><a 
-              href="#" class=" conteudo-botao">Sim</a></button>
-            <!-- <button href="servicos.html" type="button" class="btn botao-cadastrar-cliente"><a 
-             href="servicos.html" class="conteudo-botao">Não </a></button> -->
-            
-        </div>
+            <div class="mb-3">
+              <input type="email" class="form-control login-senha campos-login" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+          
+            <div class="modal-footer">
+              <button type="button" class="btn botao-cadastrar-cliente" data-bs-dismiss="modal">
+                <a href="#" class="conteudo-botao-recuperar-senha">Enviar link de redefinição de senha</a>
+              </button>
+            </div>
+          </div>
       </div>
     </div>
   </div>
