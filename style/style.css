@@ -247,14 +247,17 @@ body {
 }
 
 .apresentacao-tela-principal {
-    align-items: center;
-    padding: 0% 5%;
+    padding: 3% 5%;
     display: flex;
     align-items: flex-start;
     gap: 2rem;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
+.modaal{
+    display: flex;
+    align-items: center;
+}
 
 .apresentacoes {
     width: 50rem;
