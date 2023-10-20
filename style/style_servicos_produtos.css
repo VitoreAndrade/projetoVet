@@ -520,19 +520,32 @@ padding: 10px;
             width: 70px;
             height: 50px;
           }
-          @media (width<=1306px) and  (width<=1250px) {
+          @media (width<=1172px)  {
 
-           .b{ justify-content: end;
-            display: flex;
-            padding: 21px 7rem;
-            height: 60px;
-            gap: 12px;
-            width: 0rem;
-           }
-           .a{
-            font-family: 'Krona One', sans-serif;
-            font-size: 20px;
-            padding: 2px 12px;
-            width: 20rem;
-           }
+            .apresentacoes-produtos-cadastrar{
+                width: 100%;
+                margin-bottom: 11%;
+            }
+            .lista-produtos{
+                width: 100%;
+            }
+            .botao-cadastrar{
+                width:90%;
+               
+            }
+            .a{
+                font-size: 13px;
+            }
+            .texto-apresentacao{
+                font-size: 18px;
+            }
+            .apresentacao-tela-principal {
+                padding: 22% 0;
+        
+            }
+            .final {
+      
+                width: 100%;
+                margin: 0% 0%;
+            }
           }

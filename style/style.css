@@ -13,7 +13,10 @@ body {
 
 .pagina-inicial {
 
-
+    width: 100%;
+    height: 100vh; /* 100% da altura da viewport */
+    margin: 0;
+    padding: 0;
     background-color: lavender;
 }
 
@@ -770,6 +773,10 @@ table {
     width: 70px;
     height: 50px;
 }
+.logo {
+    width: 70px;
+    height: 50px;
+}
 
 .campos-login {
     padding: 0 10px;
@@ -1035,7 +1042,7 @@ html {
     font-size: 16px;
 }
 
-@media (width<=1306px) and (width<=1250px) {
+@media (width<=1172px) {
 
     .apresentacao-inicio {
 
@@ -1068,44 +1075,97 @@ html {
 
 
     .apresentacoes {
-        width: 22rem;
+        width: 100%;
         height: 34rem;
         background-color: white;
         box-shadow: 0px 4px 9px black;
+        margin-bottom: 3%;
     }
+    .avaliacoes{
+        width: auto;
+    }
+    .avaliadores{
+        width: 70%;
+    }
+.local-foto{
+    width: 36px;
+    height: 36px;
+}
+.agenda-legenda{
+    width: 100%;
+}
+.agenda{
+    width: auto;
+    margin-bottom: 3%;
+}
+.agendamento{
+    width: auto;
+}
+.texto-agendamento1{
+    width: auto;
+}
 
-    .tudao {
+.texto-agendamento2{
+    width: auto;
+}
+
+.texto-agendamento3{
+    width: auto;
+}
+
+.texto-agendamento4{
+    width: auto;
+}
+
+.texto-agendamento5{
+    width: auto;
+}
+
+.texto-agendamento6{
+    width: auto;
+}
+
+.texto-legendas1{
+    width: auto;
+}
+.texto-legendas2{
+    width: auto;
+}.texto-legendas3{
+    width: auto;
+}.texto-legendas4{
+    width: auto;
+}
+.legenda{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.legendas{
+    display: block;
+    gap: 15px;
+    align-items: center;
+    height: 8rem;
+    text-align: center;
+    padding: 3% 5px;
+    column-count: 2;
+}
+
+ .menu-opcoes-inicial{
+    background-color: red;
+    margin: 0% 0%;
+    width: 123%;
+ }
+ .separa{
+    margin: -44px 1rem -23px;
+ }
+ .btn-navbar{
+    margin: 0 0.5rem;
+ }
+
+    .final {
+      
         width: 100%;
         margin: 0% 0%;
     }
 
-    .final {
-        max-width: 100%;
 
-        margin: 0% 0%;
-    }
-
-    /* @media (max-width: 1920px) {
-        .apresentacao-tela-principal{
-           
-            display: flex;
-            padding: 0 4%;
-           
-            flex-direction: column;
-        }
-        .apresentacoes{
-            display: none;
-        }
-    
-        .tudao{
-            max-width: 100%;
-            margin: 0 1rem;
-        }
-        .final{
-            max-width: 100%;
-            margin: 0 0.5rem;
-        
-        }
-
-} */
 }
