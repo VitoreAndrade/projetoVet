@@ -363,3 +363,165 @@
             margin: 0 0rem;
             width: 79rem;
         }
+        @media (width<=1172px)  {
+
+            .apresentacoes-configuracoes{
+                width: 100%;
+               
+                margin-bottom: 11%;
+                overflow-y: auto;
+                overflow-x: hidden;
+            }
+            .identificacao1{
+                display: flex;
+                flex-direction: column;
+            }
+            .identificacao2{
+                display: flex;
+                flex-direction: column;
+            }
+            .identificacao3{
+                display: flex;
+                flex-direction: column;
+            }
+            .identificadores{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                justify-content: center;
+                
+                
+            }
+            .identificadores-secundarios{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                justify-content: center;
+           
+            }
+        .identificacao-secundaria1{
+            display: flex;
+            flex-direction: column;
+         
+        }
+             .identificadores-tercearios{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+
+            }
+            .identificadores-tercearios{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+
+            }
+            .identificadores-quaternarios{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                justify-content: center;
+            }
+          
+          
+            .texto-apresentacao{
+                font-size:100%;
+            }
+            .menu-opcoes-inicial{
+                background-color: red;
+                margin: 0% 0%;
+                width: 123%;
+                margin-bottom: 5%;
+             }
+             .separa{
+                margin: -44px 1rem -23px;
+             }
+             .btn-navbar{
+                margin: 0 0.5rem;
+             }
+            
+                .final {
+                  
+                    width: 100%;
+                    margin: 0% 0%;
+                }
+                .apresentacao-tela-principal {
+
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+            
+                }
+                .campo-conteudo-identificacao1{
+                    width:50%;
+                    height: 32px;
+                   
+                }
+                .campo-conteudo-identificacao2{
+                    Width:50%;
+                    Height: 32px;
+                }
+                .campo-conteudo-identificacao3{
+                    Width:50%;
+                    Height: 32px;
+                }
+                .campo-conteudo-terceario1{
+                    width: 50%;
+                    height: 32px;
+                   
+                
+                }
+                
+                .campo-conteudo-terceario2{
+                    width: 50%;
+                    height: 32px;
+                   
+                
+                }
+                .campo-conteudo-terceario3{
+                    width: 50%;
+                    height: 32px;
+                   
+                
+                }
+                .campo-conteudo-secundario1{
+                    width: 50%;
+                    height: 32px;
+                   margin: 0;
+                   padding: 0;
+                
+                }
+                .campo-conteudo-quaternario1{
+                    width: 50%;
+                    height: 32px;
+                   
+                
+                }
+                .botao-cadastrar-configuracoes {
+                    
+                    display: flex;
+                   
+                    justify-content: end;
+                    width: auto;
+                }
+                .conteudo-botao{
+                    width: auto;
+                }
+                .botao-cadastrar-cliente{
+                    width: auto;
+                }
+                .identificadores{
+                    
+                        display: flex;
+                   
+                        flex-direction: column;
+                }
+            
+           
+            
+          }

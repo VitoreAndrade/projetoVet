@@ -250,11 +250,11 @@ body {
 }
 
 .apresentacao-tela-principal {
-    padding: 3% 5%;
+    padding: 0% 5%;
     display: flex;
     align-items: flex-start;
     gap: 2rem;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 .modaal{
@@ -1153,6 +1153,7 @@ html {
     background-color: red;
     margin: 0% 0%;
     width: 123%;
+    margin-bottom: 3%;
  }
  .separa{
     margin: -44px 1rem -23px;

@@ -524,6 +524,7 @@ padding: 10px;
 
             .apresentacoes-produtos-cadastrar{
                 width: 100%;
+                height: 100%;
                 margin-bottom: 11%;
             }
             .lista-produtos{
@@ -537,15 +538,53 @@ padding: 10px;
                 font-size: 13px;
             }
             .texto-apresentacao{
-                font-size: 18px;
+                font-size:100%;
             }
-            .apresentacao-tela-principal {
-                padding: 22% 0;
-        
-            }
-            .final {
-      
-                width: 100%;
+            .menu-opcoes-inicial{
+                background-color: red;
                 margin: 0% 0%;
+                width: 123%;
+                margin-bottom: 5%;
+             }
+             .separa{
+                margin: -44px 1rem -23px;
+             }
+             .btn-navbar{
+                margin: 0 0.5rem;
+             }
+            
+                .final {
+                  
+                    width: 100%;
+                    margin: 0% 0%;
+                }
+                .apresentacao-tela-principal {
+
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+            
+                }
+            
+            
+                .identificadores, .identificadores-secundarios, .identificadores-quaternarios{
+                    
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0;
             }
+            .campo-conteudo-servico-identificacao1, .campo-conteudo-servico-identificacao2, 
+            .campo-conteudo-servico-identificacao3, .campo-conteudo-servico-identificacao4{
+                width: 50%;
+            }    
+            .campo-conteudo-servico-secundario1, .campo-conteudo-servico-secundario2{
+                width: 50%;
+            }
+            .campo-conteudo-servico-quaternario1{
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }        
           }
