@@ -510,11 +510,9 @@
                     width: auto;
                 }
                 .conteudo-botao{
-                    width: auto;
+                    width: 50;
                 }
-                .botao-cadastrar-cliente{
-                    width: auto;
-                }
+              
                 .identificadores{
                     
                         display: flex;

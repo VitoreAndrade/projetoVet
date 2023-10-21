@@ -1,28 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.pagina-inicial-servicos{
+
+.pagina-inicial-servicos {
     min-height: 80vh;
 
-    background-color:lavender;
+    background-color: lavender;
 }
 
-.menu-opcoes-inicial{
+.menu-opcoes-inicial {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
-    background-color:steelblue;
+    background-color: steelblue;
     text-align: center;
     height: 4rem;
     width: 78rem;
-   
+
     font-family: 'Krona One', sans-serif;
 }
-.btn-navbar{
+
+.btn-navbar {
     border: 2px solid;
     background-color: white;
     gap: 1;
@@ -35,12 +37,13 @@
     justify-content: center;
 }
 
-.barra-opcoes-inicio{
-    background-color:steelblue;
+.barra-opcoes-inicio {
+    background-color: steelblue;
     margin-bottom: 20px;
-    
+
 }
-.menu-opcoes{
+
+.menu-opcoes {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,40 +56,42 @@
     font-family: 'Krona One', sans-serif;
 }
 
-.separa{
+.separa {
     color: white;
     display: inline-block;
     height: 5rem;
     margin: -44px 4rem -23px;
-    width: 1px;   
+    width: 1px;
     background-color: white;
 }
-.local-foto{
+
+.local-foto {
     background-color: white;
     width: 92px;
     height: 77px;
     border-radius: 55px;
 }
-.apresentacao-tela-principal{
-    align-items: center; 
+
+.apresentacao-tela-principal {
+    align-items: center;
     padding: 0% 5%;
     display: flex;
     align-items: flex-start;
-    gap:2rem;
+    gap: 2rem;
     margin-bottom: 10px;
 }
 
-.apresentacoes-produtos-cadastrar{
+.apresentacoes-produtos-cadastrar {
     width: 76rem;
     height: 38.8rem;
     background-color: white;
     box-shadow: 0px 4px 9px black;
     margin-bottom: 2px;
-   
+
 }
 
 
-.titulo-apresentacao{
+.titulo-apresentacao {
     background-color: steelblue;
     height: 4rem;
     display: flex;
@@ -94,327 +99,365 @@
     padding: 0 2rem;
 
 }
-.texto-apresentacao{
+
+.texto-apresentacao {
     color: #F6F6F6;
     font-family: 'Krona One', sans-serif;
 
     font-size: 20px;
 }
 
-.botao-cadastrar{
+.botao-cadastrar {
     font-size: 26px;
     display: flex;
     text-align: end;
     justify-content: end;
     width: 75rem;
     padding: 1%;
-    }
+}
 
-    .conteudo-botao{
-        border-radius: 20px;
-        text-decoration: none;
-        background-color:#231EFF;
-        width: 18rem;
-        height: 3rem;
-        color: white;
-        font-family: 'Krona One', sans-serif;
-        font-size: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;;
-    }
-    .conteudo-botao:hover{
-        background-color: #1E90FF;
-        color: white;
-    }
-    .lista-produtos{
-        list-style: none;
-        padding: 0% 0%;
-        display: flex;
-        flex-direction: column;
-        width: 76rem;
-        height: 30rem;
-        gap: 11px;
-        overflow-x: hidden;
-        overflow-y: auto;
-    }
+.conteudo-botao {
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #231EFF;
+    width: 18rem;
+    height: 3rem;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
 
-    .a{
-        font-family: 'Krona One', sans-serif;
-        font-size: 20px;
-        padding: 15px 14px;
-    }
-    .b{
-        justify-content: end;
-        display: flex;
-        padding: 21px 50px;
-        height: 60px;
-        gap: 12px;
-    }
-    .visualize{
-        text-decoration: none;
-        color: black;
-       }
-       .icones{
-        font-size: 25px;
-        display: flex;
-        gap: 20px;
-       }
-       .icones-foto{
-        font-size: 25px;
-       
-       }
-       .nomes{
-        font-family: 'Krona One', sans-serif;
-        font-size: 20px;
-        
-        color: #231EFF;
-    }
-    .final{
-        background-color: steelblue;
-        height: 2rem;
-        margin: 0 0rem;
-        width: 79rem;
-    } 
+.conteudo-botao:hover {
+    background-color: #1E90FF;
+    color: white;
+}
 
-    .identificadores{
-        display: flex;
-        padding: 0rem 1rem;
-        gap: 4rem;
-        
-    }
-  
-    .identificacao1{
+.lista-produtos {
+    list-style: none;
+    padding: 0% 0%;
+    display: flex;
+    flex-direction: column;
+    width: 76rem;
+    height: 30rem;
+    gap: 11px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 
-        
-        padding: 10px;
-        
-      
-    }
-    .identificacao2{
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-      
-    }
-    .identificacao3 {
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-      
-    }
-    .conteudo-identificacao{
-        display: flex;
-        padding: 10px;
-        gap: 5rem;
-    }
-    .campo-conteudo-servico-identificacao1{
-        width:16.5rem;
-        height: 32px;
-       
-    }
+.a {
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    padding: 15px 14px;
+}
 
-    .campos-estilizado-servico{
-        border: 3px solid #231EFF2B;
-        border-left: 12px solid #231EFF2B;
-        border-right: 12px solid #231EFF2B;
-        padding: 0 10px;
-    }
-    .campos-estilizado-bloqueado{
-        border: 3px solid #231EFF2B;
-        border-left: 12px solid #231EFF2B;
-        border-right: 12px solid #231EFF2B;
-        background-color: darkgrey;
-        padding: 0 10px;
-    }
-    .campos-estilizado-servico:focus-visible{
-        outline: none;
-    }
-    .campo-conteudo-servico-identificacao2{
-        Width:24rem;
-        Height: 32px;
-    }
-    .campo-conteudo-servico-identificacao3{
-        Width: 7rem;
-        Height: 32px;
-    }
-    .campo-conteudo-servico-identificacao4{
-        Width: 7rem;
-        Height: 32px;
-    }
-    .identificadores-secundarios{
-        display: flex;
-       padding: 1rem 1rem;
-       gap: 3.7rem;
-    
-        
-    }
-    .identificacao-secundaria1{
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        
-      
-    }
-        .identificacao-secundaria2{
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        
-      
-    }
+.b {
+    justify-content: end;
+    display: flex;
+    padding: 21px 50px;
+    height: 60px;
+    gap: 12px;
+}
 
-.identificacao-secundaria3{
-display: flex;
-flex-direction: column;
-padding: 10px;
+.visualize {
+    text-decoration: none;
+    color: black;
+}
+
+.icones {
+    font-size: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.icones-foto {
+    font-size: 25px;
+
+}
+
+.nomes {
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+
+    color: #231EFF;
+}
+
+.final {
+    background-color: steelblue;
+    height: 2rem;
+    margin: 0 0rem;
+    width: 79rem;
+}
+
+.identificadores {
+    display: flex;
+    padding: 0rem 1rem;
+    gap: 4rem;
+
+}
+
+.identificacao1 {
+
+
+    padding: 10px;
 
 
 }
-    .campo-conteudo-servico-secundario1{
-        width: 46rem;
-        height: 32px;
-       
-    
-    }
 
-    .campo-conteudo-servico-secundario2{
-        width: 18.5rem;
-        height: 32px;
-       
-     
-    }   
-    .campo-conteudo-servico-secundario3{
-        width: 6.5rem;
-        height: 32px;
-       
-     
-    }
+.identificacao2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 
-    .identificadores-secundarios{
-        display: flex;
-       padding: 1rem 1rem;
-       gap: 3.7rem;
-    
-        
-    }
-    .identificacao-secundaria1{
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        
-      
-    }
-        .identificacao-secundaria2{
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        
-      
-    }
+}
 
-.identificacao-secundaria3{
-display: flex;
-flex-direction: column;
-padding: 10px;
+.identificacao3 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.conteudo-identificacao {
+    display: flex;
+    padding: 10px;
+    gap: 5rem;
+}
+
+.campo-conteudo-servico-identificacao1 {
+    width: 16.5rem;
+    height: 32px;
+
+}
+
+.campos-estilizado-servico {
+    border: 3px solid #231EFF2B;
+    border-left: 12px solid #231EFF2B;
+    border-right: 12px solid #231EFF2B;
+    padding: 0 10px;
+}
+
+.campos-estilizado-bloqueado {
+    border: 3px solid #231EFF2B;
+    border-left: 12px solid #231EFF2B;
+    border-right: 12px solid #231EFF2B;
+    background-color: darkgrey;
+    padding: 0 10px;
+}
+
+.campos-estilizado-servico:focus-visible {
+    outline: none;
+}
+
+.campo-conteudo-servico-identificacao2 {
+    Width: 24rem;
+    Height: 32px;
+}
+
+.campo-conteudo-servico-identificacao3 {
+    Width: 7rem;
+    Height: 32px;
+}
+
+.campo-conteudo-servico-identificacao4 {
+    Width: 7rem;
+    Height: 32px;
+}
+
+.identificadores-secundarios {
+    display: flex;
+    padding: 1rem 1rem;
+    gap: 3.7rem;
 
 
 }
-    .campo-conteudo-servico-secundario1{
-        width: 46rem;
-        height: 32px;
-       
-    
-    }
 
-    .campo-conteudo-servico-secundario2{
-        width: 7.5rem;
-        height: 32px;
-       
-     
-    }   
-    .campo-conteudo-servico-secundario3{
-        width: 6.5rem;
-        height: 32px;
-       
-     
-    }
-    .identificadores-tercearios{
-        display: flex;
-       padding: 1rem;
-       gap: 1.7rem;
-        
-    }
-    .identificacao-terceario1{
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        
-      
-    }
-    .identificacao-terceario2{
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        
-      
-    }
-    .identificacao-terceario3{
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        
-      
-    }
-    .campo-conteudo-servico-terceario1{
-        width: 10.5rem;
-        height: 32px;
-       
-    
-    }
+.identificacao-secundaria1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 
-    .campo-conteudo-servico-terceario2{
-        width: 25.5rem;
-        height: 32px;
-       
-    
-    }
-    .campo-conteudo-servico-terceario3{
-        width: 29.2rem;
-        height: 32px;
-       
-    
-    }
-    .identificadores-quaternarios{
-        display: flex;
-       padding: 0rem 1rem;
-       gap: 5.4rem;
-        
-    }
-    .identificacao-quaternario1{
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        
-      
-    } 
-    .identificacao-quaternario2{
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        
-      
-    }
-    .identificacao-quaternario3{
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        
-      
-    }
 
-    .campo-conteudo-servico-quaternario1{
-        width: 12.5rem;
+}
+
+.identificacao-secundaria2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+
+}
+
+.identificacao-secundaria3 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+
+}
+
+.campo-conteudo-servico-secundario1 {
+    width: 46rem;
+    height: 32px;
+
+
+}
+
+.campo-conteudo-servico-secundario2 {
+    width: 18.5rem;
+    height: 32px;
+
+
+}
+
+.campo-conteudo-servico-secundario3 {
+    width: 6.5rem;
+    height: 32px;
+
+
+}
+
+.identificadores-secundarios {
+    display: flex;
+    padding: 1rem 1rem;
+    gap: 3.7rem;
+
+
+}
+
+.identificacao-secundaria1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+
+}
+
+.identificacao-secundaria2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+
+}
+
+.identificacao-secundaria3 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+
+}
+
+.campo-conteudo-servico-secundario1 {
+    width: 46rem;
+    height: 32px;
+
+
+}
+
+.campo-conteudo-servico-secundario2 {
+    width: 7.5rem;
+    height: 32px;
+
+
+}
+
+.campo-conteudo-servico-secundario3 {
+    width: 6.5rem;
+    height: 32px;
+
+
+}
+
+.identificadores-tercearios {
+    display: flex;
+    padding: 1rem;
+    gap: 1.7rem;
+
+}
+
+.identificacao-terceario1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+
+}
+
+.identificacao-terceario2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+
+}
+
+.identificacao-terceario3 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+
+}
+
+.campo-conteudo-servico-terceario1 {
+    width: 10.5rem;
+    height: 32px;
+
+
+}
+
+.campo-conteudo-servico-terceario2 {
+    width: 25.5rem;
+    height: 32px;
+
+
+}
+
+.campo-conteudo-servico-terceario3 {
+    width: 29.2rem;
+    height: 32px;
+
+
+}
+
+.identificadores-quaternarios {
+    display: flex;
+    padding: 0rem 1rem;
+    gap: 5.4rem;
+
+}
+
+.identificacao-quaternario1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+
+}
+
+.identificacao-quaternario2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+
+}
+
+.identificacao-quaternario3 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+
+}
+
+.campo-conteudo-servico-quaternario1 {
+    width: 12.5rem;
     height: 12rem;
     text-align: center;
 
@@ -422,169 +465,181 @@ padding: 10px;
     position: relative;
     overflow: hidden;
     padding: 3rem;
-    }
-    
-    .campo-conteudo-servico-quaternario1-input {
-        width: 0.1px;
-        height: 0.1px;
-        opacity: 0;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-    .campo-conteudo-servico-quaternario2{
-        width: 25.2rem;
-        height: 12rem;
-        display: flex;
-       
-    
-    }
-    .campo-conteudo-servico-quaternario3{
-        width: 22.2rem;
-        height: 32px;
-       
-    
-    }
-    .botao-cadastrar-produto{
-        font-size: 26px;
-        display: flex;
-        text-align: end;
-        justify-content: end;
-   
-        padding: 3% 4%;
-        gap: 16px;
-        }
-        .texto-barra-login{  
-            font-family: 'Krona One', sans-serif;
-            font-size: 26px;
-            display: flex;
-            align-items: center;
-            color: #F6F6F6;
-            padding: 0 0%;
-        }
-        .especialidades{
-            width: 20rem;
-        }
+}
 
-        .texto-especialidade1{
-            background-color: #4EF41461;
-            font-family: 'Krona One', sans-serif;
-            font-size: 20px;
-            width:8rem;
-            height: 2rem;
-        
+.campo-conteudo-servico-quaternario1-input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.campo-conteudo-servico-quaternario2 {
+    width: 25.2rem;
+    height: 12rem;
+    display: flex;
+
+
+}
+
+.campo-conteudo-servico-quaternario3 {
+    width: 22.2rem;
+    height: 32px;
+
+
+}
+
+.botao-cadastrar-produto {
+    font-size: 26px;
+    display: flex;
+    text-align: end;
+    justify-content: end;
+
+    padding: 3% 4%;
+    gap: 16px;
+}
+
+.texto-barra-login {
+    font-family: 'Krona One', sans-serif;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    color: #F6F6F6;
+    padding: 0 0%;
+}
+
+.especialidades {
+    width: 20rem;
+}
+
+.texto-especialidade1 {
+    background-color: #4EF41461;
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    width: 8rem;
+    height: 2rem;
+
+
+}
+
+.texto-especialidade2 {
+    background-color: #F4221461;
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    width: 8rem;
+    height: 2rem;
+
+}
+
+.texto-especialidade3 {
+    background-color: #1914F461;
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    width: 8rem;
+    height: 2rem;
+
+
+}
+
+.texto-especialidade4 {
+    background-color: #191B1961;
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    width: 5rem;
+    height: 2rem;
+
+}
+
+.perfil {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.perfil-foto:hover {
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.foto-perfil {
+    width: 70px;
+    height: 50px;
+}
+
+ @media (width<=1172px)  {
+
+    .apresentacoes-produtos-cadastrar{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 11%; 
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .lista-produtos{
+        width: 100%;
+    }
+    .botao-cadastrar{
+        width:90%;
+       
+    }
+    .a{
+        font-size: 13px;
+    }
+    .texto-apresentacao{
+        font-size:100%;
+    }
+    .menu-opcoes-inicial{
+        background-color: red;
+        margin: 0% 0%;
+        width: 123%;
+        margin-bottom: 5%;
+     }
+     .separa{
+        margin: -44px 1rem -23px;
+     }
+     .btn-navbar{
+        margin: 0 0.5rem;
+     }
     
-        }
-        .texto-especialidade2{
-            background-color: #F4221461;
-            font-family: 'Krona One', sans-serif;
-            font-size: 20px;
-            width: 8rem;
-            height: 2rem;
-           
-        }
-        .texto-especialidade3{
-            background-color: #1914F461;
-            font-family: 'Krona One', sans-serif;
-            font-size: 20px;
-            width:8rem;
-            height: 2rem;
+        .final {
           
-            
+            width: 100%;
+            margin: 0% 0%;
         }
-        .texto-especialidade4{
-            background-color: #191B1961;
-            font-family: 'Krona One', sans-serif;
-            font-size: 20px;
-            width: 5rem;
-            height: 2rem;
-    
-        }
+        .apresentacao-tela-principal {
 
-        .perfil{
-            cursor: pointer;
-            width: 100px;
-            height: 100px;
-            box-sizing: border-box;
-            border-radius: 100%;
-            border: 2px solid transparent;
-            background-color: white;
             display: flex;
             align-items: center;
-          }
-          .perfil-foto:hover {
-            box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
-          }
+            flex-direction: column;
     
-          .foto-perfil{
-            width: 70px;
-            height: 50px;
-          }
-          @media (width<=1172px)  {
-
-            .apresentacoes-produtos-cadastrar{
-                width: 100%;
-                height: 100%;
-                margin-bottom: 11%;
-            }
-            .lista-produtos{
-                width: 100%;
-            }
-            .botao-cadastrar{
-                width:90%;
-               
-            }
-            .a{
-                font-size: 13px;
-            }
-            .texto-apresentacao{
-                font-size:100%;
-            }
-            .menu-opcoes-inicial{
-                background-color: red;
-                margin: 0% 0%;
-                width: 123%;
-                margin-bottom: 5%;
-             }
-             .separa{
-                margin: -44px 1rem -23px;
-             }
-             .btn-navbar{
-                margin: 0 0.5rem;
-             }
+        }
+    
+    
+        .identificadores, .identificadores-secundarios, .identificadores-quaternarios{
             
-                .final {
-                  
-                    width: 100%;
-                    margin: 0% 0%;
-                }
-                .apresentacao-tela-principal {
-
-                    display: flex;
-                    align-items: center;
-                    flex-direction: column;
-            
-                }
-            
-            
-                .identificadores, .identificadores-secundarios, .identificadores-quaternarios{
-                    
-                    display: flex;
-                    flex-direction: column;
-                    gap: 0;
-            }
-            .campo-conteudo-servico-identificacao1, .campo-conteudo-servico-identificacao2, 
-            .campo-conteudo-servico-identificacao3, .campo-conteudo-servico-identificacao4{
-                width: 50%;
-            }    
-            .campo-conteudo-servico-secundario1, .campo-conteudo-servico-secundario2{
-                width: 50%;
-            }
-            .campo-conteudo-servico-quaternario1{
-                width: 50%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
-            }        
-          }
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+    }
+    .campo-conteudo-servico-identificacao1, .campo-conteudo-servico-identificacao2, 
+    .campo-conteudo-servico-identificacao3, .campo-conteudo-servico-identificacao4{
+        width: 50%;
+    }    
+    .campo-conteudo-servico-secundario1, .campo-conteudo-servico-secundario2{
+        width: 50%;
+    }
+    .campo-conteudo-servico-quaternario1{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }        
+  }
