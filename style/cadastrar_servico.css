@@ -840,3 +840,17 @@
             margin: 0% 0%;
         }
 }
+@media (width<=991px){
+    .foto-perfil{
+        display: none;
+    }
+    .separa{
+        display: none;
+    }
+    .menu-opcoes-inicial{
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        padding: 0 10%;
+    }
+}

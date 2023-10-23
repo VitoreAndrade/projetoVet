@@ -221,6 +221,7 @@ body {
     height: 4rem;
     width: 78rem;
     font-family: 'Krona One', sans-serif;
+  
 }
 
 .menu-opcoes:active {
@@ -998,7 +999,13 @@ table {
     align-items: center;
     ;
 }
+.btn-responsivo{
+    background-color: black;
+}   
 
+.apresentacao-login-modal{
+    padding: 0 50%;
+}
 
 .nomes-modal {
     font-family: 'Krona One', sans-serif;
@@ -1149,6 +1156,8 @@ html {
     column-count: 2;
 }
 
+
+
  .menu-opcoes-inicial{
     background-color: red;
     margin: 0% 0%;
@@ -1169,4 +1178,18 @@ html {
     }
 
 
+}
+@media (width<=991px){
+    .foto-perfil{
+        display: none;
+    }
+    .separa{
+        display: none;
+    }
+    .menu-opcoes-inicial{
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        padding: 0 10%;
+    }
 }
