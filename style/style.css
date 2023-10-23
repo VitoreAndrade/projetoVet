@@ -14,7 +14,8 @@ body {
 .pagina-inicial {
 
     width: 100%;
-    height: 100vh; /* 100% da altura da viewport */
+    height: 100vh;
+    /* 100% da altura da viewport */
     margin: 0;
     padding: 0;
     background-color: lavender;
@@ -44,7 +45,7 @@ body {
     border-radius: 21px;
     box-shadow: 0px 4px 9px black;
     display: flex;
-   
+
 }
 
 .apresentacao-titulo {
@@ -96,7 +97,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 1rem 3rem;
-   
+
     height: 100%;
 
 }
@@ -221,7 +222,7 @@ body {
     height: 4rem;
     width: 78rem;
     font-family: 'Krona One', sans-serif;
-  
+
 }
 
 .menu-opcoes:active {
@@ -258,7 +259,7 @@ body {
     margin-bottom: 10px;
 }
 
-.modaal{
+.modaal {
     display: flex;
     align-items: center;
 }
@@ -504,7 +505,7 @@ body {
     background-color: white;
     box-shadow: 0px 4px 9px black;
     margin-bottom: 2px;
-    
+
 }
 
 .apresentacoes-clientes-cadastrar {
@@ -533,6 +534,7 @@ body {
     padding: 0% 4%;
     gap: 16px;
 }
+
 .botao-recuperar {
     font-size: 26px;
     display: flex;
@@ -774,6 +776,7 @@ table {
     width: 70px;
     height: 50px;
 }
+
 .logo {
     width: 70px;
     height: 50px;
@@ -956,7 +959,7 @@ table {
     width: 12.5rem;
     height: 7rem;
     text-align: center;
-    
+
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -999,11 +1002,9 @@ table {
     align-items: center;
     ;
 }
-.btn-responsivo{
-    background-color: black;
-}   
 
-.apresentacao-login-modal{
+
+.apresentacao-login-modal {
     padding: 0 50%;
 }
 
@@ -1049,28 +1050,17 @@ html {
     font-size: 16px;
 }
 
+.btn-responsivo {
+    box-shadow: 0px 4px 9px black;
+    background-color: steelblue;
+    z-index: 1;
+}
+
+
 @media (width<=1172px) {
 
-    .apresentacao-inicio {
 
-        justify-content: center;
-        width: 25rem;
-        height: 25rem;
-    }
 
-    .imagem-direita {
-        display: none;
-    }
-
-    .apresentacao-login {
-        display: flex;
-        align-items: center;
-        padding: 0rem 2rem;
-    }
-
-    .campos-login {
-        width: 18rem;
-    }
 
     .apresentacao-tela-principal {
 
@@ -1083,113 +1073,158 @@ html {
 
     .apresentacoes {
         width: 100%;
-   
+
         background-color: white;
         box-shadow: 0px 4px 9px black;
         margin-bottom: 3%;
     }
-    .avaliacoes{
+
+    .avaliacoes {
         width: auto;
     }
-    .avaliadores{
+
+    .avaliadores {
         width: 70%;
     }
-.local-foto{
-    width: 36px;
-    height: 36px;
-}
-.agenda-legenda{
-    width: 100%;
-}
-.agenda{
-    width: auto;
-    margin-bottom: 3%;
-}
-.agendamento{
-    width: auto;
-}
-.texto-agendamento1{
-    width: auto;
-}
 
-.texto-agendamento2{
-    width: auto;
-}
+    .local-foto {
+        width: 36px;
+        height: 36px;
+    }
 
-.texto-agendamento3{
-    width: auto;
-}
+    .agenda-legenda {
+        width: 100%;
+    }
 
-.texto-agendamento4{
-    width: auto;
-}
+    .agenda {
+        width: auto;
+        margin-bottom: 3%;
+    }
 
-.texto-agendamento5{
-    width: auto;
-}
+    .agendamento {
+        width: auto;
+    }
 
-.texto-agendamento6{
-    width: auto;
-}
+    .texto-agendamento1 {
+        width: auto;
+    }
 
-.texto-legendas1{
-    width: auto;
-}
-.texto-legendas2{
-    width: auto;
-}.texto-legendas3{
-    width: auto;
-}.texto-legendas4{
-    width: auto;
-}
-.legenda{
-    width: 100%;
-    margin-bottom: 5%;
-}
-.legendas{
-    display: block;
-    gap: 15px;
-    align-items: center;
-    height: 8rem;
-    text-align: center;
-    padding: 3% 5px;
-    column-count: 2;
-}
+    .texto-agendamento2 {
+        width: auto;
+    }
 
+    .texto-agendamento3 {
+        width: auto;
+    }
 
+    .texto-agendamento4 {
+        width: auto;
+    }
 
- .menu-opcoes-inicial{
-    background-color: red;
-    margin: 0% 0%;
-    width: 123%;
-    margin-bottom: 3%;
- }
- .separa{
-    margin: -44px 1rem -23px;
- }
- .btn-navbar{
-    margin: 0 0.5rem;
- }
+    .texto-agendamento5 {
+        width: auto;
+    }
+
+    .texto-agendamento6 {
+        width: auto;
+    }
+
+    .texto-legendas1 {
+        width: auto;
+    }
+
+    .texto-legendas2 {
+        width: auto;
+    }
+
+    .texto-legendas3 {
+        width: auto;
+    }
+
+    .texto-legendas4 {
+        width: auto;
+    }
+
+    .legenda {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .legendas {
+        display: block;
+        gap: 15px;
+        align-items: center;
+        height: 8rem;
+        text-align: center;
+        padding: 3% 5px;
+        column-count: 2;
+    }
+
+    .menu-opcoes-inicial {
+        margin: 0% 0%;
+        width: 123%;
+        margin-bottom: 3%;
+    }
+
+    .separa {
+        margin: -44px 1rem -23px;
+    }
+
+    .btn-navbar {
+        width: 100%;
+        margin: 0 0.5rem;
+    }
 
     .final {
-      
         width: 100%;
         margin: 0% 0%;
     }
-
-
 }
-@media (width<=991px){
-    .foto-perfil{
+
+@media (width<=991px) {
+    .apresentacao {
+        width: 100vh;
+    }
+
+    .apresentacao-inicio {
+      
+        width: 50%;
+    }
+
+    .apresentacao-login {
+ 
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .login-senha{
+        width: 100%;
+    }
+.botao-entrar{
+    width: 100%;
+}
+    .campos-login {
+        width: 100%;
+    }
+
+    .foto-perfil {
         display: none;
     }
-    .separa{
+
+    .separa {
         display: none;
     }
-    .menu-opcoes-inicial{
+
+    .menu-opcoes-inicial {
         display: flex;
         justify-content: space-between;
-        position: fixed;
-        padding: 0 10%;
+    }
+
+    .apresentacao-direita {
+        display: none;
+    }
+
+    .separa-login {
+        display: none;
     }
 }

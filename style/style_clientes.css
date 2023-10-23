@@ -205,6 +205,12 @@
         width: 70px;
         height: 50px;
       }
+      .btn-responsivo{
+        box-shadow: 0px 4px 9px black;
+        background-color: steelblue;
+        z-index: 1;
+    }
+    
 
       @media (width<=1172px)  {
 
@@ -227,7 +233,7 @@
             font-size:100%;
         }
         .menu-opcoes-inicial{
-            background-color: red;
+        
             margin: 0% 0%;
             width: 123%;
             margin-bottom: 5%;
@@ -264,7 +270,6 @@
         .menu-opcoes-inicial{
             display: flex;
             justify-content: space-between;
-            position: fixed;
-            padding: 0 10%;
+           
         }
     }

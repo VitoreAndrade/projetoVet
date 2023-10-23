@@ -7,7 +7,6 @@
 
 .pagina-inicial-servicos {
     min-height: 80vh;
-
     background-color: lavender;
 }
 
@@ -20,7 +19,6 @@
     text-align: center;
     height: 4rem;
     width: 78rem;
-
     font-family: 'Krona One', sans-serif;
 }
 
@@ -44,7 +42,6 @@
 .barra-opcoes-inicio {
     background-color: steelblue;
     margin-bottom: 20px;
-
 }
 
 .menu-opcoes {
@@ -58,10 +55,6 @@
     width: 12rem;
     margin: 0px 9px;
     font-family: 'Krona One', sans-serif;
-}
-
-.menu-opcoes:active {
-    background-color: red;
 }
 
 .separa {
@@ -91,7 +84,7 @@
 
 .apresentacoes-produtos-cadastrar {
     width: 76rem;
-    height: 60rem;
+    height: 68rem;
     background-color: white;
     box-shadow: 0px 4px 9px black;
     margin-bottom: 2px;
@@ -109,7 +102,6 @@
 .texto-apresentacao {
     color: #F6F6F6;
     font-family: 'Krona One', sans-serif;
-
     font-size: 20px;
 }
 
@@ -134,7 +126,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    ;
 }
 
 .conteudo-botao:hover {
@@ -199,48 +190,33 @@
 
 .identificadores {
     display: flex;
-
     padding: 0rem 1rem;
-
-
 }
 
 .identificacao1 {
     display: flex;
     flex-direction: column;
     padding: 10px;
-
-
 }
 
 .identificacao2 {
-
     flex-direction: column;
     padding: 10px;
-
 }
 
 .identificacao3 {
-
     flex-direction: column;
     padding: 10px;
-
 }
 
 .identificacao-registro {
-
     flex-direction: column;
     padding: 10px;
-
 }
 
 .identificacao-valor {
-
-
     flex-direction: column;
     padding: 10px;
-
-
 }
 
 .conteudo-identificacao {
@@ -250,9 +226,7 @@
 }
 
 .campo-conteudo-servico-identificacao1 {
-
     height: 32px;
-
 }
 
 .campos-estilizado-servico {
@@ -290,56 +264,41 @@
 }
 
 .identificadores-secundarios {
-
     padding: 1rem 1rem;
     gap: 3.7rem;
-
-
 }
 
 .identificacao-secundaria1 {
     display: flex;
     flex-direction: column;
     padding: 10px;
-
-
 }
 
 .identificacao-secundaria2 {
     display: flex;
     flex-direction: column;
     padding: 10px;
-
-
 }
 
 .identificacao-secundaria3 {
     display: flex;
     flex-direction: column;
     padding: 10px;
-
-
 }
 
 .campo-conteudo-servico-secundario1 {
     width: 8rem;
     height: 32px;
-
-
 }
 
 .campo-conteudo-servico-secundario2 {
     width: 8rem;
     height: 32px;
-
-
 }
 
 .campo-conteudo-servico-secundario3 {
     width: 8rem;
     height: 32px;
-
-
 }
 
 
@@ -347,135 +306,102 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-
-
 }
 
 .identificacao-secundaria2 {
     display: flex;
     flex-direction: column;
     padding: 10px;
-
-
 }
 
 .identificacao-secundaria3 {
     display: flex;
     flex-direction: column;
     padding: 10px;
-
-
 }
 
 .campo-conteudo-servico-secundario1 {
     width: 46rem;
     height: 32px;
-
-
 }
 
 .campo-conteudo-servico-secundario-sexo {
     width: 7.5rem;
     height: 32px;
-
-
 }
 
 .campo-conteudo-servico-secundario-promo {
     width: 6.5rem;
     height: 32px;
-
-
 }
 
 .identificadores-tercearios {
     display: flex;
     padding: 1rem;
     gap: 1.7rem;
-
 }
 
 .identificacao-terceario1 {
     display: flex;
     flex-direction: column;
     padding: 10px;
-
-
 }
 
 .identificacao-terceario2 {
     display: flex;
     flex-direction: column;
     padding: 10px;
-
-
 }
 
 .identificacao-terceario3 {
     display: flex;
     flex-direction: column;
     padding: 10px;
-
-
 }
 
 .campo-conteudo-servico-terceario1 {
     width: 10.5rem;
     height: 32px;
-
-
 }
 
 .campo-conteudo-servico-terceario2 {
     width: 25.5rem;
     height: 32px;
-
-
 }
 
 .campo-conteudo-servico-terceario3 {
     width: 29.2rem;
     height: 32px;
-
-
 }
 
 .identificadores-quaternarios {
     display: flex;
     padding: 0rem 1rem;
     gap: 5.4rem;
-
 }
 
 .identificacao-quaternario1 {
     display: flex;
     flex-direction: column;
     padding: 10px;
-
-
 }
 
 .identificacao-quaternario2 {
     display: flex;
     flex-direction: column;
     padding: 10px;
-
-
 }
-.identificacao-atendimento{
+
+.identificacao-atendimento {
     display: flex;
     flex-direction: column;
     padding: 10px;
-
-
 }
 
 .identificacao-quaternario3 {
     display: flex;
     flex-direction: column;
     padding: 10px;
-
-
 }
 
 .campo-conteudo-servico-quaternario1 {
@@ -483,7 +409,6 @@
     width: 12.5rem;
     height: 7rem;
     text-align: center;
-
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -505,15 +430,11 @@
     flex-direction: column;
     gap: 15px;
     padding: 1rem;
-
-
 }
 
 .campo-conteudo-servico-quaternario3 {
     width: 22.2rem;
     height: 32px;
-
-
 }
 
 .botao-cadastrar-produto {
@@ -521,7 +442,6 @@
     display: flex;
     text-align: end;
     justify-content: end;
-
     padding: 3% 4%;
     gap: 16px;
 }
@@ -545,8 +465,6 @@
     font-size: 20px;
     width: 8rem;
     height: 2rem;
-
-
 }
 
 .texto-especialidade2 {
@@ -555,7 +473,6 @@
     font-size: 20px;
     width: 8rem;
     height: 2rem;
-
 }
 
 .texto-especialidade3 {
@@ -564,8 +481,6 @@
     font-size: 20px;
     width: 8rem;
     height: 2rem;
-
-
 }
 
 .texto-especialidade4 {
@@ -574,7 +489,6 @@
     font-size: 20px;
     width: 5rem;
     height: 2rem;
-
 }
 
 .perfil {
@@ -604,7 +518,6 @@
     padding: 1rem 1rem;
 }
 
-
 .identificacao-esquerda {
 
     display: flex;
@@ -614,7 +527,6 @@
 }
 
 .apresentacao2 {
-
     display: flex;
     padding: 0rem 1rem;
     gap: 32px;
@@ -623,31 +535,24 @@
 .campo-conteudo-servico-identificacao-registro {
     width: 8rem;
     height: 32px;
-
 }
 
 .campo-conteudo-servico-especialidade {
     width: 8rem;
     height: 32px;
-
 }
 
 .apresentacao3 {
-
     display: flex;
     padding: 1rem 1rem;
-
 }
 
 .titulos-campos {
-
     padding: 0rem 1rem;
     height: 3rem;
     font-family: 'Krona One', sans-serif;
     font-size: 16px;
-
     color: #231EFF;
-
 }
 
 .campos-agendamento {
@@ -679,12 +584,21 @@
 
 
 .campos-estilizado-agendamento {
-
     height: 4rem;
 }
+.btn-responsivo{
+    box-shadow: 0px 4px 9px black;
+    background-color: steelblue;
+    z-index: 1;
+}
+.botao-cadastrar-servico {
 
-
-
+    display: flex;
+   
+    justify-content: end;
+    padding: 6% 0%;
+    gap: 16px;
+}
 
 @media (width<=1172px) {
     .apresentacao-tela-principal {
@@ -692,9 +606,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-
     }
-  
 
     .some {
         display: none;
@@ -708,7 +620,6 @@
         gap: 15px;
         margin-bottom: 26px;
         justify-content: center;
-    
     }
 
     .apresentacoes-produtos-cadastrar {
@@ -717,24 +628,26 @@
         margin-bottom: 11%;
     }
 
-
-
     .campo-conteudo-servico-identificacao2,
     .campo-conteudo-servico-secundario2,
-    .campo-conteudo-servico-identificacao3,.campo-conteudo-servico-especialidade {
+    .campo-conteudo-servico-identificacao3,
+    .campo-conteudo-servico-especialidade {
         width: 100%;
     }
-    .campo-conteudo-servico-identificacao-registro, .campo-conteudo-servico-secundario-promo,
-     .campo-conteudo-servico-identificacao4{
+
+    .campo-conteudo-servico-identificacao-registro,
+    .campo-conteudo-servico-secundario-promo,
+    .campo-conteudo-servico-identificacao4 {
         width: 100%;
-     }
-     .campo-conteudo-servico-especialidade{
+    }
+
+    .campo-conteudo-servico-especialidade {
         width: 100%;
-     }
-     
-     .campo-conteudo-servico-secundario-sexo{
+    }
+
+    .campo-conteudo-servico-secundario-sexo {
         width: 100%;
-     }
+    }
 
     .campo-conteudo-servico-quaternario2 {
         width: 100%;
@@ -760,33 +673,32 @@
         flex-direction: column;
         width: 50%;
     }
-    .identificacao-quaternario2{
-    
-            display: flex;
-            flex-direction: column;
-            padding: 10px;
-            width: 50%;
-            
-        
+
+    .identificacao-quaternario2 {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 50%;
+
     }
 
     .apresentacao2 {
-
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         padding: 0rem 1%;
         gap: 5px;
     }
-    .apresentacao3 {
 
+    .apresentacao3 {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         padding: 0rem 1rem;
         gap: 5px;
     }
-    .nomes{
+
+    .nomes {
         font-size: 12px;
     }
 
@@ -796,6 +708,7 @@
         padding: 10px;
         width: 50%;
     }
+
     .identificacao-secundaria3 {
         display: flex;
         flex-direction: column;
@@ -809,48 +722,55 @@
         padding: 10px;
         width: 50%;
     }
-    .identificacao-atendimento{
+
+    .identificacao-atendimento {
         display: flex;
         flex-direction: column;
         padding: 10px;
         width: 100%;
     }
-    .identificacao-valor{
+
+    .identificacao-valor {
         display: flex;
         flex-direction: column;
         padding: 10px;
         width: 50%;
     }
-    .menu-opcoes-inicial{
-        background-color: red;
+
+    .menu-opcoes-inicial {
+      
         margin: 0% 0%;
         width: 123%;
         margin-bottom: 5%;
-     }
-     .separa{
+    }
+
+    .separa {
         margin: -44px 1rem -23px;
-     }
-     .btn-navbar{
+    }
+
+    .btn-navbar {
+        width: 100%;
         margin: 0 0.5rem;
-     }
-    
-        .final {
-          
-            width: 100%;
-            margin: 0% 0%;
-        }
+    }
+
+    .final {
+        width: 100%;
+        margin: 0% 0%;
+    }
+  
 }
-@media (width<=991px){
-    .foto-perfil{
+
+@media (width<=991px) {
+    .foto-perfil {
         display: none;
     }
-    .separa{
+
+    .separa {
         display: none;
     }
-    .menu-opcoes-inicial{
+
+    .menu-opcoes-inicial {
         display: flex;
         justify-content: space-between;
-        position: fixed;
-        padding: 0 10%;
     }
 }

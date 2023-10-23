@@ -123,25 +123,13 @@ body{
    gap: 3rem;
     
 }
-.identificacao1{
+.identificacao1,.identificacao2, .identificacao3{
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    
-  
+    padding: 10px; 
 }
-.identificacao2{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-  
-}
-.identificacao3 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-  
-}
+
+
 
 .final{
     background-color: steelblue;
@@ -215,10 +203,76 @@ body{
 }
 
 .campo-conteudo-secundario1{
+    resize: none;
     width: 71.2rem;
     height: 8rem;
-   
+}
 
+
+
+    @media (width<=1172px){
+        .apresentacao-tela-principal {
+    
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+    
+        }
+        .btn-responsivo{
+            box-shadow: 0px 4px 9px black;
+            background-color: steelblue;
+            z-index: 1;
+        }
+        .apresentacoes-clientes-cadastrar {
+            width: 100%;
+            background-color: white;
+            box-shadow: 0px 4px 9px black;
+            margin-bottom: 3%;
+            overflow-y: auto;
+            overflow-x: hidden;
+         
+        }
+        .menu-opcoes-inicial{
+           
+            margin: 0% 0%;
+            width: 123%;
+            margin-bottom: 3%;
+         }
+
+    .identificadores {
+        display: flex;
+        padding: 1%;
+        flex-direction: column;
+        width: 50%;
+        gap: 5px;
+    }
+    .campo-conteudo-identificacao1, .campo-conteudo-identificacao2, .campo-conteudo-identificacao3{
+        width: 100%;
+    }
+    .identificadores-secundarios {
+        display: flex;
+        padding: 1%;
+        width: 50%;
+    }
+    .campo-conteudo-secundario1{
+        width: 100%;
+        height: auto;
+        
+    }
+    .separa{
+        margin: -44px 1rem -23px;
+     }
+     .btn-navbar{
+        width: 100%;
+        margin: 0 0.5rem;
+     }
+     .final {
+      
+        width: 100%;
+        margin: 0% 0%;
+    }
+
+  
 }
 @media (width<=991px){
     .foto-perfil{
@@ -230,7 +284,6 @@ body{
     .menu-opcoes-inicial{
         display: flex;
         justify-content: space-between;
-        position: fixed;
-        padding: 0 10%;
+    
     }
 }

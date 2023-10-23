@@ -25,10 +25,10 @@
       <h2 class="texto-apresentacao-login">
         Ipet
       </h2>
-      <form action="processar_login.php" method="post">
-        <input class="login-senha campos-login" type="text" id="username" name="username"
+      <form action="processar_login.php" method="post" class="campos-login">
+        <input class="login-senha" type="text" id="username" name="username"
           placeholder="Username"><br><br>
-        <input class="login-senha campos-login" type="password" id="password" name="password" placeholder="Senha">
+        <input class="login-senha" type="password" id="password" name="password" placeholder="Senha">
         <div class="esqueceu-senha">
           <a class="esqueceu-senha btn-esqueceu-senha" data-bs-toggle="modal" data-bs-target="#exampleModal"
             href="#">
@@ -36,17 +36,14 @@
         </div>
         <a href="./incial.html" class="botao-entrar">Acessar</a>
     </div>
-    <span class="separa-login"> </span>
+    <span class="separa-login"></span>
     <div class="apresentacao-direita">
    
        <img class="imagem-direita" src="./assets/Vector.png">
       </div>
     </div>
-   
   </main>
-
   <footer>
-    <!-- place footer here -->
   </footer>
   <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg justify-content-center">
