@@ -2,63 +2,52 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
-  <!-- Required meta tags -->
+  <title>Cadastrar produto</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link href="style/style_servicos_produtos.css" rel="stylesheet">
+    <link href="./cadastrar_produto.html">
+    <link href="./style/style_servicos_produtos.css"rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> 
-  
 </head>
-
 <body class="pagina-inicial"> 
     <header class="d-flex justify-content-center">
       <nav class="navbar navbar-expand-lg  menu-opcoes-inicial">
         <div class="container-fluid btn-responsivo">
-          <a class="navbar-brand " style="display: flex; align-items: center; color: white"  href="index.html">
+          <a class="navbar-brand " style="display: flex; align-items: center;color: white"  href="index.html">
             <img src="Vector.png" width="60" height="80" class="d-inline-block align-top foto-perfil" alt="">Ipet
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse  justify-content-center " id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav opcoes-navbar">
               <li class="nav-item active">
-                <a class="nav-link btn-navbar"  href="incial.html">Home</a>
+                <a class="nav-link btn-navbar" href="/principais/incial.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link btn-navbar " style="background-color: darkgray;" href="servicos.html">Serviços</a>
+                <a class="nav-link btn-navbar " style="background-color: darkgray;" href="/servicos_produtos/servicos.html">Serviços</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link btn-navbar" href="clientes.html">Clientes</a>
+                <a class="nav-link btn-navbar" href="/clientes/clientes.html">Clientes</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link btn-navbar " href="configuracoes.html">Configurações</a>
+                <a class="nav-link btn-navbar " href="/configuracoes/configuracoes.html">Configurações</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link btn-navbar " href="perfil.html">Perfil</a>
+                <a class="nav-link btn-navbar " href="/perfil/perfil.html">Perfil</a>
               </li>
             </ul>
-          </div>
-           
-        
-           
-            
-          </div>
+          </div>    
         </div>
       </nav>
       </header>
- 
     <main class="apresentacao-tela-principal justify-content-center">
-
         <div class="apresentacoes-produtos-cadastrar">
             <div class="titulo-apresentacao">
                 <h2 class="texto-apresentacao">
-                  Visualizar produto
+                  Cadastrar produtos
                 </h2>
               </div>
               <div class="identificadores">
@@ -66,29 +55,26 @@
                 <h2 class="nomes">
                    Marca
                 </h2>
-                <input class="campo-conteudo-servico-identificacao1 campos-estilizado-bloqueado" type="text" disabled>
+                <input class="campo-conteudo-servico-identificacao1 campos-estilizado-servico" type="text">
               </div>
               <div class="identificacao2">
                 <h2 class="nomes">
                     Nome do produto:
                 </h2>
-                <input class="campo-conteudo-servico-identificacao2 campos-estilizado-bloqueado" type="text" disabled>
+                <input class="campo-conteudo-servico-identificacao2 campos-estilizado-servico" type="number">
               </div>
               <div class="identificacao3">
                  <h2 class="nomes">
                     Qtd:
-                </h2> 
-                 <input class="campo-conteudo-servico-identificacao3 campos-estilizado-bloqueado" type="number" disabled> 
                 <div class="form-group ">
-                    
-                  
+                    <input class="campo-conteudo-servico-identificacao4 campos-estilizado-servico" type="number">
                   </div>
             </div> 
               <div class="identificacao3">
                 <h2 class="nomes">
                     Validade:
                 </h2>
-                <input class="campo-conteudo-servico-identificacao4 campos-estilizado-bloqueado" type="text" disabled>
+                <input class="campo-conteudo-servico-identificacao4 campos-estilizado-servico" type="number">
               </div>       
             </div>
             <div class="identificadores-secundarios">
@@ -96,58 +82,65 @@
                 <h2 class="nomes">
                     Descrição:
                 </h2>
-                <input class="campo-conteudo-servico-secundario1 campos-estilizado-bloqueado" type="text" disabled>
+                <input class="campo-conteudo-servico-secundario1 campos-estilizado-servico" type="text">
               </div>
               <div class="identificacao-secundaria2">
                 <h2 class="nomes">
                     Tipo:
                 </h2>
-                <input class="campo-conteudo-servico-secundario2 campos-estilizado-bloqueado" type="text" disabled>
+                <input class="campo-conteudo-servico-secundario2 campos-estilizado-servico" type="text">
               </div>
             </div>
-           
             <div class="identificadores-quaternarios">
               <div class="identificacao-quaternario1">
                 <h2 class="nomes">
                   Imagem do pet:
                 </h2>
-                <label for="fileInput" class="campo-conteudo-servico-quaternario1 campos-estilizado-bloqueado">
-                  
-                  <input type="file" id="fileInput" class="campo-conteudo-servico-quaternario1-input" disabled>
+                <label for="fileInput" class="campo-conteudo-servico-quaternario1 campos-estilizado-servico">
+                  <input type="file" id="fileInput" class="campo-conteudo-servico-quaternario1-input">
                   <i class="bi bi-cloud-arrow-down-fill icones-foto"></i>
                   <h2 class="nomes">Baixar arquivo</h2>
               </label>
             </div>
             </div>
             <div class="botao-cadastrar-produto">
-              
+              <a href="cadastrar_produto.html" class="conteudo-botao" data-bs-toggle="modal" data-bs-target="#exampleModal">Cadastrar</a>
               <a href="servicos.html" class="conteudo-botao">voltar</a>
             </div>
             </div>
           </div>  
-          
   </main>
   <div class="d-flex w-100 justify-content-center">
     <footer class="final">
       <div class="final">
-
       </div>
-
     </footer>
   </div>
-<!-- Button trigger modal -->
-
-<!-- Modal -->
-
-
-  <!-- Bootstrap JavaScript Libraries -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg justify-content-center">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body alling-itens-center justify-content-center">
+        <h2 class="nomes-modal">
+        Deseja cadastrar outro Produto?
+      </h2>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <button type="button" class="btn botao-cadastrar-cliente" data-bs-dismiss="modal"><a 
+            href="#" class=" conteudo-botao">Sim</a></button>
+          <button href="servicos.html" type="button" class="btn botao-cadastrar-cliente"><a 
+           href="servicos.html" class="conteudo-botao">Não </a></button>
+      </div>
+    </div>
+  </div>
+</div>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
   </script>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
 </body>
-
 </html>

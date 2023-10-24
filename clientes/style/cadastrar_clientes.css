@@ -8,7 +8,6 @@
 .pagina-inicial {
     width: 100%;
     height: 100vh;
-    /* 100% da altura da viewport */
     margin: 0;
     padding: 0;
     background-color: lavender;
@@ -45,21 +44,13 @@
     justify-content: center;
 }
 
-.separa {
-    color: black;
-    display: inline-block;
-    height: 5rem;
-    margin: -44px 4rem -23px;
-    width: 1px;
-    background-color: white;
+.btn-responsivo {
+    box-shadow: 0px 4px 9px black;
+    background-color: steelblue;
+    z-index: 1;
 }
 
 .foto-perfil {
-    width: 70px;
-    height: 50px;
-}
-
-.logo {
     width: 70px;
     height: 50px;
 }
@@ -70,7 +61,7 @@
 
 .nomes {
     font-family: 'Krona One', sans-serif;
-    font-size: 20px;
+    font-size: 12px;
     color: #231EFF;
 }
 
@@ -154,7 +145,6 @@
     display: flex;
     padding: 1rem;
     gap: 1.7rem;
-
 }
 
 .identificacao-secundaria1 {
@@ -224,42 +214,18 @@
     gap: 1.7rem;
 }
 
-.identificacao-quaternario1 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-
-.identificacao-quaternario2 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-
+.identificacao-quaternario1,
+.identificacao-quaternario2,
 .identificacao-quaternario3 {
     display: flex;
     flex-direction: column;
     padding: 10px;
 }
 
-.identificadores-quaternarios {
-    display: flex;
-    padding: 1rem;
-    gap: 1.7rem;
-}
-
-.identificacao-quaternario1 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-
 .campo-conteudo-quaternario1 {
-   
     width: 12.5rem;
     height: 7rem;
     cursor: pointer;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -275,28 +241,15 @@
     left: 0;
 }
 
-.identificacao-quaternario2 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-
 .campo-conteudo-quaternario2 {
     width: 10.2rem;
     height: 32px;
-}
-
-.identificacao-quaternario3 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
 }
 
 .campo-conteudo-quaternario3 {
     width: 22.2rem;
     height: 32px;
 }
-
 
 .botao-cadastrar-cliente {
     font-size: 26px;
@@ -326,18 +279,20 @@
     color: white;
 }
 
+.nomes-modal {
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: #231EFF;
+}
+
 .final {
     background-color: steelblue;
     height: 2rem;
     margin: 0 0rem;
     width: 79rem;
 }
-.btn-responsivo{
-    box-shadow: 0px 4px 9px black;
-    background-color: steelblue;
-    z-index: 1;
-}
-
 
 @media (width<=1172px) {
     .apresentacao-tela-principal {
@@ -345,9 +300,11 @@
         align-items: center;
         flex-direction: column;
     }
-.btn-navbar{
-    width: 100%;
-}
+
+    .btn-navbar {
+        width: 100%;
+    }
+
     .apresentacoes-clientes-cadastrar {
         width: 100%;
         height: 100%;
@@ -359,7 +316,7 @@
     }
 
     .menu-opcoes-inicial {
-      
+
         margin: 0% 0%;
         width: 123%;
         margin-bottom: 3%;
@@ -372,6 +329,7 @@
         display: flex;
         flex-direction: column;
         gap: 0;
+        padding: 0% 1%;
     }
 
     .campo-conteudo-identificacao1,
@@ -392,8 +350,14 @@
 
     .botao-cadastrar-cliente {
         width: 90%;
-        padding: 2% 16%;
+        padding: 2% 0%;
 
+    }
+
+    .opcoes-navbar {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
     }
 
     .final {

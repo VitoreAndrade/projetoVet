@@ -97,9 +97,17 @@
     display: flex;
     align-items: center;
     padding: 0 2rem;
+    font-size: 20px;
 
 }
 
+.nomes-modal {
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: #231EFF;
+}
 .texto-apresentacao {
     color: #F6F6F6;
     font-family: 'Krona One', sans-serif;
@@ -148,7 +156,7 @@
     overflow-y: auto;
 }
 
-.a {
+.tabela-listagem {
     font-family: 'Krona One', sans-serif;
     font-size: 20px;
     padding: 15px 14px;
@@ -180,7 +188,7 @@
 
 .nomes {
     font-family: 'Krona One', sans-serif;
-    font-size: 20px;
+    font-size: 12px;
 
     color: #231EFF;
 }
@@ -587,6 +595,8 @@
     gap: 16px;
 }
 
+
+
  @media (width<=1172px)  {
 
     .apresentacoes-produtos-cadastrar{
@@ -607,7 +617,7 @@
         font-size: 13px;
     }
     .texto-apresentacao{
-        font-size:100%;
+        font-size:90%;
     }
     .menu-opcoes-inicial{
 
@@ -622,6 +632,11 @@
         width:100%;
         margin: 0;
      }
+     .opcoes-navbar{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
     
         .final {
           
