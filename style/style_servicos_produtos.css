@@ -573,6 +573,7 @@
     height: 50px;
 }
 .btn-responsivo{
+   
     box-shadow: 0px 4px 9px black;
     background-color: steelblue;
     z-index: 1;
@@ -618,8 +619,8 @@
         margin: -44px 1rem -23px;
      }
      .btn-navbar{
-        width: 100%;
-        margin: 0 0.5rem;
+        width:100%;
+        margin: 0;
      }
     
         .final {
