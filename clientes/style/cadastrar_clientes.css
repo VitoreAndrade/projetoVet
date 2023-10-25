@@ -112,13 +112,29 @@
 .campo-conteudo-identificacao3 {
     Width: 12.6rem;
     Height: 32px;
+    -webkit-appearance: none;
+    appearance: none;
+
 }
+/* Remove as setas de incremento/decremento */
+.campo-conteudo-identificacao3::-webkit-inner-spin-button,
+.campo-conteudo-identificacao3::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+
+
 
 .campos-estilizado {
     border: 3px solid #231EFF2B;
     border-left: 12px solid #231EFF2B;
     border-right: 12px solid #231EFF2B;
     padding: 0 10px;
+}
+.campos-estilizado:focus-visible{
+    outline: none;
 }
 
 .campos-estilizado-bloqueado {

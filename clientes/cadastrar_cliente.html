@@ -7,9 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link href="/clientes/clientes.html">
-    <link href="./style/cadastrar_clientes.css"rel="stylesheet">
+  <link href="/clientes/clientes.html">
+  <link href="./style/cadastrar_clientes.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
 </head>
 
 <body class="pagina-inicial">
@@ -32,7 +38,8 @@
               <a class="nav-link btn-navbar " href="/servicos_produtos/servicos.html">Serviços</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn-navbar" style="background-color: darkgray;" href="/clientes/clientes.html">Clientes</a>
+              <a class="nav-link btn-navbar" style="background-color: darkgray;"
+                href="/clientes/clientes.html">Clientes</a>
             </li>
             <li class="nav-item ">
               <a class="nav-link btn-navbar " href="/configuracoes/configuracoes.html">Configurações</a>
@@ -70,8 +77,10 @@
           <h2 class="nomes">
             CPF:
           </h2>
-          <input class="campo-conteudo-identificacao3 campos-estilizado" type="number"
-            pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00">
+          <input class="campo-conteudo-identificacao3 campos-estilizado" type="text" oninput="formatCPF(this)"
+            pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00" maxlength="14">
+
+
         </div>
       </div>
       <div class="identificadores-secundarios">
@@ -99,7 +108,8 @@
           <h2 class="nomes">
             Telefone:
           </h2>
-          <input class="campo-conteudo-terceario2 campos-estilizado" type="number">
+          <input class="campo-conteudo-identificacao3 campos-estilizado" type="text" oninput="formatTelefone(this)"
+            pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="(85)99999-9999" maxlength="13  ">
         </div>
         <div class="identificacao-terceario3">
           <h2 class="nomes">
@@ -123,14 +133,14 @@
           <h2 class="nomes">
             Idade do Pet:
           </h2>
-          <input class="campo-conteudo-quaternario2 campos-estilizado" type="number">
+          <input class="campo-conteudo-quaternario2 campos-estilizado" type="number" min="1">
         </div>
         <div class="identificacao-terceario3">
           <h2 class="nomes">
             Data de nascimento do Pet:
           </h2>
-          <input class="campo-conteudo-quaternario3 campos-estilizado" type="number" type="number"
-            pattern="\d{2}\.\d{2}\.\d{4}" placeholder="01/01/2023">
+          <input class="campo-conteudo-quaternario3 campos-estilizado" type="date" pattern="\d{2}\.\d{2}\.\d{4}"
+            placeholder="01/01/2023">
         </div>
       </div>
       <div class="botao-cadastrar-cliente">
@@ -168,8 +178,43 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
     </script>
+  <script>
+    function formatCPF(input) {
+
+      let value = input.value.replace(/\D/g, '');
+
+
+      if (value.length > 0) {
+        value = value.replace(/^(\d{3})/, '$1.');
+      }
+      if (value.length > 3) {
+        value = value.replace(/^(\d{3})\.(\d{3})/, '$1.$2.');
+      }
+      if (value.length > 6) {
+        value = value.replace(/^(\d{3})\.(\d{3})\.(\d{3})/, '$1.$2.$3-');
+      }
+      input.value = value;
+    }
+
+    function formatTelefone(input) {
+      let value = input.value.replace(/\D/g, '');
+
+
+      if (value.length > 2) {
+
+        value = value.replace(/^(\d{2})/, '($1)');
+      }
+      if (value.length > 7) {
+
+        value = value.replace(/^(\d{2})(\d{4})(\d{1,4})/, '($1) $2-$3');
+      }
+      input.value = value;
+    }
+
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
     </script>
 </body>
+
 </html>
