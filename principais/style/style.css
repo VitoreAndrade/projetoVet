@@ -563,11 +563,9 @@ body {
 
 @media (width<=1600px) {
     .apresentacao-tela-principal {
-
+        height: 84%;
         display: flex;
-      
-       
-
+        
     }
 
     .menu-opcoes-inicial {
@@ -575,20 +573,22 @@ body {
     }
 
     .apresentacoes {
+        height: 100%;
+        
         margin-bottom: 5px;
     }
 
  
     .agenda-legenda{
        margin: 0;
-        gap: 15px;
+        gap: 82px;
     }
 
-    .agenda {
-      
-
+    .agendamento {
+        height: 100%;
     }
     .legendas { 
+        height: 50%;
     }
     .texto-agendamento1,
     .texto-agendamento2,
