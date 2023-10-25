@@ -61,7 +61,7 @@
 
 .nomes {
     font-family: 'Krona One', sans-serif;
-    font-size: 12px;
+    font-size: 20px;
     color: #231EFF;
 }
 
@@ -358,6 +358,9 @@
         display: flex;
         justify-content: space-between;
         width: 90%;
+    }
+    .nomes{
+        font-size: 12px;
     }
 
     .final {

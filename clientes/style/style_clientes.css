@@ -150,7 +150,7 @@
 
 .nomes {
     font-family: 'Krona One', sans-serif;
-    font-size: 12px;
+    font-size: 20px;
     color: #231EFF;
 }
 
@@ -208,6 +208,9 @@
 
     .texto-apresentacao {
         font-size: 100%;
+    }
+    .nomes{
+        font-size: 12px;
     }
 
     .final {

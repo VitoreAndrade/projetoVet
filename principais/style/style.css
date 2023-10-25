@@ -15,28 +15,17 @@ body {
 
     width: 100%;
     height: 100vh;
-    /* 100% da altura da viewport */
     margin: 0;
     padding: 0;
     background-color: lavender;
 }
 
 .apresentacao {
-
     align-items: center;
     padding: 10% 10%;
     display: flex;
     justify-content: center;
-
 }
-
-
-.tudao {
-    max-width: 107rem;
-    margin: 0px 3rem;
-    width: 79rem;
-}
-
 .apresentacao-inicio {
     text-align: center;
     width: 56rem;
@@ -60,6 +49,11 @@ body {
     align-items: center;
     justify-content: center;
     padding: 1% 2%
+}
+.btn-responsivo {
+    box-shadow: 0px 4px 9px black;
+    background-color: steelblue;
+    z-index: 1;
 }
 
 .texto-apresentacao-login {
@@ -112,7 +106,6 @@ body {
 .imagem-login {
     width: 4rem;
     height: 5rem;
-
 }
 
 .avaliadores {
@@ -120,23 +113,18 @@ body {
     width: 38rem;
     overflow-y: auto;
     overflow-x: hidden;
-
 }
-
 .campo-avaliacao {
     display: flex;
     flex-direction: column;
     gap: 15px;
     height: 26rem;
 }
-
-
 .login-senha {
     border-radius: 20px;
     background-color: white;
     width: 21rem;
     height: 4rem;
-
     font-family: 'Krona One', sans-serif;
 }
 
@@ -175,26 +163,6 @@ body {
     color: white;
 }
 
-.separa {
-    color: black;
-    display: inline-block;
-    height: 5rem;
-    margin: -44px 4rem -23px;
-    width: 1px;
-    background-color: white;
-}
-
-.separa-login {
-    /* display: inline-block;
-    height: 20rem;
-    margin: -44px 0rem -23px;
-    width: 1px;
-    background-color: #231EFF2B; */
-
-    width: 1px;
-    height: 100%;
-    background-color: #231EFF2B;
-}
 
 .apresentacao-direita {
 
@@ -224,9 +192,6 @@ body {
     font-family: 'Krona One', sans-serif;
 
 }
-
-
-
 .btn-navbar {
     border: 2px solid;
     background-color: white;
@@ -238,15 +203,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.local-foto {
-    background-color: white;
-    width: 60px;
-    height: 60px;
-    border-radius: 55px;
-
-
 }
 
 .apresentacao-tela-principal {
@@ -281,7 +237,6 @@ body {
 .texto-apresentacao {
     color: #F6F6F6;
     font-family: 'Krona One', sans-serif;
-
     font-size: 20px;
 }
 
@@ -322,31 +277,16 @@ body {
 
 }
 
-.texto-agendamento1 {
+.texto-agendamento1,.texto-agendamento2 {
     background-color: #F4221461;
     font-family: 'Krona One', sans-serif;
     font-size: 20px;
     width: 350px;
     box-shadow: 0px 4px 4px 0px #00000040;
-
-
-
-
-
 }
 
-.texto-agendamento2 {
-    background-color: #F4221461;
-    font-family: 'Krona One', sans-serif;
-    font-size: 20px;
-    width: 350px;
-    box-shadow: 0px 4px 4px 0px #00000040 inset;
-    box-shadow: 0px 4px 4px 0px #00000040;
 
-
-}
-
-.texto-agendamento3 {
+.texto-agendamento3, .texto-agendamento6 {
     background-color: #4EF41461;
     font-family: 'Krona One', sans-serif;
     font-size: 20px;
@@ -375,21 +315,7 @@ body {
     width: 350px;
     box-shadow: 0px 4px 4px 0px #00000040 inset;
     box-shadow: 0px 4px 4px 0px #00000040;
-
-
-
 }
-
-.texto-agendamento6 {
-    background-color: #4EF41461;
-    font-family: 'Krona One', sans-serif;
-    font-size: 20px;
-    width: 350px;
-    box-shadow: 0px 4px 4px 0px #00000000 inset;
-
-}
-
-
 .legenda {
     width: 25rem;
     height: 11rem;
@@ -459,36 +385,6 @@ body {
     width: 350px;
     box-shadow: 0px 4px 4px 0px #00000040 inset;
     box-shadow: 0px 4px 4px 0px #00000040;
-
-}
-
-.meuCirculo {
-    fill: blue;
-
-}
-
-.grafico-circle {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    gap: 84px;
-    height: 52%;
-}
-
-.grafico-barra {
-    width: 56rem;
-    /* Largura do gráfico de barra */
-    height: 12rem;
-    /* Altura do gráfico de barra */
-    display: flex;
-
-
-}
-
-.barra {
-
-    fill: blue;
-    /* Cor das barras */
 }
 
 .texto-legenda {
@@ -506,14 +402,6 @@ body {
 
 }
 
-.apresentacoes-clientes-cadastrar {
-    width: 76rem;
-    height: 42rem;
-    background-color: white;
-    box-shadow: 0px 4px 9px black;
-    margin-bottom: 2px;
-}
-
 .botao-cadastrar {
     font-size: 26px;
     display: flex;
@@ -522,17 +410,6 @@ body {
     width: 75rem;
     padding: 1%;
 }
-
-.botao-cadastrar-cliente {
-    font-size: 26px;
-    display: flex;
-    text-align: end;
-    justify-content: end;
-
-    padding: 0% 4%;
-    gap: 16px;
-}
-
 .botao-recuperar {
     font-size: 26px;
     display: flex;
@@ -593,189 +470,6 @@ body {
     justify-content: center;
 }
 
-table {
-    width: 95%;
-    border-collapse: collapse;
-    margin: 0 2rem;
-    gap: 15px;
-}
-
-.a {
-    font-family: 'Krona One', sans-serif;
-    font-size: 20px;
-    padding: 15px 20px;
-}
-
-.b {
-    justify-content: end;
-    display: flex;
-    padding: 21px 17px;
-    height: 60px;
-    gap: 12px;
-}
-
-.icones {
-    font-size: 25px;
-    display: flex;
-    gap: 20px;
-}
-
-.icones-foto {
-    font-size: 25px;
-
-}
-
-.visualize {
-    text-decoration: none;
-    color: black;
-}
-
-.lista-clientes {
-    list-style: none;
-    padding: 0% 0%;
-    display: flex;
-    flex-direction: column;
-    width: 76rem;
-    gap: 11px;
-}
-
-.texto-lista {
-    font-family: 'Krona One', sans-serif;
-    font-size: 20px;
-    background-color: steelblue;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    padding: 0 1%;
-}
-
-.texto-lista1 {
-    font-family: 'Krona One', sans-serif;
-    font-size: 20px;
-    background-color: lavender;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    padding: 0 1%;
-}
-
-.texto-lista2 {
-    font-family: 'Krona One', sans-serif;
-    font-size: 20px;
-    background-color: steelblue;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    padding: 0 1%;
-}
-
-.texto-lista3 {
-    font-family: 'Krona One', sans-serif;
-    font-size: 20px;
-    background-color: lavender;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    padding: 0 1%;
-}
-
-.texto-lista4 {
-    font-family: 'Krona One', sans-serif;
-    font-size: 20px;
-    background-color: steelblue;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    padding: 0 1%;
-}
-
-.texto-lista5 {
-    font-family: 'Krona One', sans-serif;
-    font-size: 20px;
-    background-color: lavender;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    padding: 0 1%;
-}
-
-.texto-lista6 {
-    font-family: 'Krona One', sans-serif;
-    font-size: 20px;
-    background-color: steelblue;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    padding: 0 1%;
-}
-
-.visualizador {
-    height: 26px;
-}
-
-.identificadores {
-    display: flex;
-    padding: 1rem;
-    gap: 3rem;
-
-}
-
-.identificacao1 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-
-
-}
-
-.identificacao2 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-
-}
-
-.identificacao3 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-
-}
-
-.conteudo-identificacao {
-    display: flex;
-    padding: 10px;
-    gap: 5rem;
-}
-
-.campo-conteudo-identificacao1 {
-    width: 340px;
-    height: 32px;
-
-}
-
-
-.perfil {
-    cursor: pointer;
-    width: 100px;
-    height: 100px;
-    box-sizing: border-box;
-    border-radius: 100%;
-    border: 2px solid transparent;
-    background-color: white;
-    display: flex;
-    align-items: center;
-}
-
-.perfil-foto:hover {
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
-}
-
-.foto-perfil {
-    width: 70px;
-    height: 50px;
-}
-
 .logo {
     width: 70px;
     height: 50px;
@@ -784,12 +478,9 @@ table {
 .campos-login {
     padding: 0 10px;
 }
-
 .campos-login:focus-visible {
     outline: none;
 }
-
-
 .campos-estilizado {
     border: 3px solid #231EFF2B;
     border-left: 12px solid #231EFF2B;
@@ -803,7 +494,6 @@ table {
     border-right: 12px solid #231EFF2B;
 
 }
-
 .campos-estilizado-bloqueado {
     border: 3px solid #231EFF2B;
     border-left: 12px solid #231EFF2B;
@@ -815,182 +505,9 @@ table {
 .campos-estilizado:focus-visible {
     outline: none;
 }
-
-.campo-conteudo-identificacao2 {
-    Width: 460px;
-    Height: 32px;
-}
-
-.campo-conteudo-identificacao3 {
-    Width: 12.6rem;
-    Height: 32px;
-}
-
-.identificadores-secundarios {
-    display: flex;
-    padding: 1rem;
-    gap: 1.7rem;
-
-}
-
-.identificacao-secundaria1 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-
-
-}
-
-.identificacao-secundaria2 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-
-
-}
-
-.campo-conteudo-secundario1 {
-    width: 55.5rem;
-    height: 32px;
-
-
-}
-
-.campo-conteudo-secundario2 {
-    width: 12.5rem;
-    height: 32px;
-
-
-}
-
-.identificadores-tercearios {
-    display: flex;
-    padding: 1rem;
-    gap: 1.7rem;
-
-}
-
-.identificacao-terceario1 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-
-
-}
-
-.identificacao-terceario2 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-
-
-}
-
-.identificacao-terceario3 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-
-
-}
-
-.campo-conteudo-terceario1 {
-    width: 10.5rem;
-    height: 32px;
-
-
-}
-
-.campo-conteudo-terceario2 {
-    width: 25.5rem;
-    height: 32px;
-
-
-}
-
-.campo-conteudo-terceario3 {
-    width: 29.2rem;
-    height: 32px;
-
-
-}
-
-.identificadores-quaternarios {
-    display: flex;
-    padding: 1rem;
-    gap: 1.7rem;
-
-}
-
-.identificacao-quaternario1 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-
-
-}
-
-.identificacao-quaternario2 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-
-
-}
-
-.identificacao-quaternario3 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-
-
-}
-
-.campo-conteudo-quaternario1 {
-    width: 12.5rem;
-    height: 7rem;
-
-
-}
-
-.campo-conteudo-quaternario1 {
-    display: inline-block;
-    width: 12.5rem;
-    height: 7rem;
-    text-align: center;
-
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-}
-
-.campo-conteudo-quaternario1-input {
-    width: 0.1px;
-    height: 0.1px;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.campo-conteudo-quaternario2 {
-    width: 10.2rem;
-    height: 32px;
-
-
-}
-
-.campo-conteudo-quaternario3 {
-    width: 22.2rem;
-    height: 32px;
-
-
-}
-
 .botoes {
     border-radius: 20px;
     text-decoration: none;
-
     width: 18rem;
     height: 3rem;
     color: white;
@@ -999,10 +516,7 @@ table {
     display: flex;
     justify-content: center;
     align-items: center;
-    ;
 }
-
-
 .apresentacao-login-modal {
     padding: 0 50%;
 }
@@ -1017,15 +531,13 @@ table {
 
 .nomes {
     font-family: 'Krona One', sans-serif;
-    font-size: 12px;
-
+    font-size: 20px;
     color: #231EFF;
 }
 
 .nomes-avaliadores {
     font-family: 'Krona One', sans-serif;
     font-size: 12px;
-
     color: #231EFF;
 }
 
@@ -1035,8 +547,6 @@ table {
     font-family: 'Krona One', sans-serif;
     font-size: 12px;
 }
-
-
 .final {
     background-color: steelblue;
     height: 2rem;
@@ -1044,35 +554,53 @@ table {
     width: 79rem;
 }
 
-/* Estilos padrão para telas maiores */
-html {
-    font-size: 16px;
-}
 
-.btn-responsivo {
-    box-shadow: 0px 4px 9px black;
-    background-color: steelblue;
-    z-index: 1;
-}
+@media (width<=1600px){
+    .apresentacao-tela-principal {
 
+        display: flex;
+        align-items: center;
+        height: 84%;
+        
+    }
+
+    .apresentacoes{
+        height:100%;
+    }
+    .agenda-legenda{
+        height: 100%;
+        gap:20px ;
+    }
+    .agenda, .agendamento{
+        height: 85%;   
+        overflow-y: auto;
+        overflow-x: hidden; 
+    }
+    .texto-agendamento1, .texto-agendamento2,.texto-agendamento3, .texto-agendamento4, .texto-agendamento5,.texto-agendamento6 {
+        width: 70%;
+    }
+    .texto-legendas1, .texto-legendas2, .texto-legendas3, .texto-legendas4 {
+        width: auto;
+    }
+
+.nomes{
+    font-size: 12px;
+}
+    .final {
+        margin: 0% 0%;
+    }
+}
 
 @media (width<=1172px) {
-
-
-
-
     .apresentacao-tela-principal {
 
         display: flex;
         align-items: center;
         flex-direction: column;
-
+        height: auto;
     }
-
-
     .apresentacoes {
         width: 100%;
-
         background-color: white;
         box-shadow: 0px 4px 9px black;
         margin-bottom: 3%;
@@ -1098,52 +626,21 @@ html {
     .agenda {
         width: auto;
         margin-bottom: 3%;
+        overflow-y: auto;
+        overflow-x: hidden;
     }
 
     .agendamento {
         width: auto;
+        
     }
 
-    .texto-agendamento1 {
+    .texto-agendamento1, .texto-agendamento2,.texto-agendamento3, .texto-agendamento4, .texto-agendamento5,.texto-agendamento6 {
         width: auto;
     }
-
-    .texto-agendamento2 {
+    .texto-legendas1, .texto-legendas2, .texto-legendas3, .texto-legendas4 {
         width: auto;
     }
-
-    .texto-agendamento3 {
-        width: auto;
-    }
-
-    .texto-agendamento4 {
-        width: auto;
-    }
-
-    .texto-agendamento5 {
-        width: auto;
-    }
-
-    .texto-agendamento6 {
-        width: auto;
-    }
-
-    .texto-legendas1 {
-        width: auto;
-    }
-
-    .texto-legendas2 {
-        width: auto;
-    }
-
-    .texto-legendas3 {
-        width: auto;
-    }
-
-    .texto-legendas4 {
-        width: auto;
-    }
-
     .legenda {
         width: 100%;
         margin-bottom: 5%;
@@ -1164,10 +661,9 @@ html {
         width: 123%;
         margin-bottom: 3%;
     }
-
-    .separa {
-        margin: -44px 1rem -23px;
-    }
+.nomes{
+    font-size: 12px;
+}
 
     .btn-navbar {
         width: 100%;
