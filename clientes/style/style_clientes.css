@@ -106,7 +106,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    ;
+    
 }
 
 .conteudo-botao:hover {
@@ -201,6 +201,9 @@
         width: 90%;
 
     }
+    .conteudo-botao{
+        font-size: 16px;
+    }
 
     .listagem-clientes {
         font-size: 13px;
@@ -212,6 +215,7 @@
     .nomes{
         font-size: 12px;
     }
+   
 
     .final {
         width: 100%;

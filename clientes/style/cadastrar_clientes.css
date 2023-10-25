@@ -93,7 +93,7 @@
     gap: 3rem;
 }
 
-.identificacao1 {
+.identificacao1, .identificacao2, .identificacao3 {
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -104,21 +104,9 @@
     height: 32px;
 }
 
-.identificacao2 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-
 .campo-conteudo-identificacao2 {
     Width: 460px;
     Height: 32px;
-}
-
-.identificacao3 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
 }
 
 .campo-conteudo-identificacao3 {
@@ -141,13 +129,14 @@
     padding: 0 10px;
 }
 
-.identificadores-secundarios {
+.identificadores-secundarios, .identificadores-tercearios {
     display: flex;
     padding: 1rem;
     gap: 1.7rem;
 }
 
-.identificacao-secundaria1 {
+.identificacao-secundaria1, .identificacao-secundaria2,.identificacao-terceario1,
+.identificacao-terceario2, .identificacao-terceario3{
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -158,49 +147,21 @@
     height: 32px;
 }
 
-.identificacao-secundaria2 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-
 .campo-conteudo-secundario2 {
     width: 12.5rem;
     height: 32px;
 }
 
-.identificadores-tercearios {
-    display: flex;
-    padding: 1rem;
-    gap: 1.7rem;
-}
-
-.identificacao-terceario1 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
 
 .campo-conteudo-terceario1 {
     width: 10.5rem;
     height: 32px;
 }
 
-.identificacao-terceario2 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
 
 .campo-conteudo-terceario2 {
     width: 25.5rem;
     height: 32px;
-}
-
-.identificacao-terceario3 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
 }
 
 .campo-conteudo-terceario3 {
@@ -362,13 +323,13 @@
     .nomes{
         font-size: 12px;
     }
-
+    .conteudo-botao{
+        font-size: 16px;
+    }
     .final {
-
         width: 100%;
         margin: 0% 0%;
     }
-
 }
 
 @media (width<=991px) {
