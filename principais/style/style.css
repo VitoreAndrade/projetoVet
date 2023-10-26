@@ -205,6 +205,7 @@ body {
 }
 
 .apresentacao-tela-principal {
+    min-height: calc(100vh - 7rem);
     padding: 0% 5%;
     display: flex;
     align-items: flex-start;
@@ -563,6 +564,7 @@ body {
 
 @media (width<=1600px) {
      .apresentacao-tela-principal {
+       
         display: flex;
     }
 
@@ -570,9 +572,11 @@ body {
         margin-bottom: 10px;
     }
 
-    .apresentacoes {
-        margin-bottom: 5px;
+    .apresentacoes{
+      
+       
     }
+    
 
     .texto-agendamento1,
     .texto-agendamento2,
