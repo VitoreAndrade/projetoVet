@@ -562,10 +562,8 @@ body {
 
 
 @media (width<=1600px) {
-    .apresentacao-tela-principal {
-        height: 84%;
+     .apresentacao-tela-principal {
         display: flex;
-        
     }
 
     .menu-opcoes-inicial {
@@ -573,23 +571,9 @@ body {
     }
 
     .apresentacoes {
-        height: 100%;
-        
         margin-bottom: 5px;
     }
 
- 
-    .agenda-legenda{
-       margin: 0;
-        gap: 82px;
-    }
-
-    .agendamento {
-        height: 100%;
-    }
-    .legendas { 
-        height: 50%;
-    }
     .texto-agendamento1,
     .texto-agendamento2,
     .texto-agendamento3,
@@ -618,7 +602,7 @@ body {
 }
 
 @media (width<=1172px) {
-    .apresentacao-tela-principal {
+     .apresentacao-tela-principal {
 
         display: flex;
         align-items: center;
@@ -632,6 +616,7 @@ body {
         box-shadow: 0px 4px 9px black;
         margin-bottom: 3%;
     }
+
 
     .avaliacoes {
         width: auto;
@@ -655,6 +640,7 @@ body {
         margin-bottom: 3%;
         overflow-y: auto;
         overflow-x: hidden;
+        box-shadow: 0px 4px 9px black;
     }
 
     .agendamento {
@@ -669,7 +655,7 @@ body {
     .texto-agendamento4,
     .texto-agendamento5,
     .texto-agendamento6 {
-        width: auto;
+        width: 50%;
     }
 
     .texto-legendas1,
@@ -763,4 +749,4 @@ body {
     .separa-login {
         display: none;
     }
-}
+} 
